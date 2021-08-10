@@ -11,7 +11,23 @@ Students will choose a project from the list below and apply for it by sending e
 5. Microsoft PowerShell 
 6. Brigade
 
+A more detailed description of the project (2-5 sentences)
+Expected outcomes
+Skills required/preferred (e.g., some familiarity with Java programming)
+Possible mentors
+[If possible] an easy, medium, or hard rating of each project
+
+
 ## Semester.ly Projects 
+### Semester.ly #1: Revive Advanced Search Feature - 
+#### Description:
+#### Our current advanced search feature is broken and often inconvenient for the average user, we need want it to not only be fixed but be greater than its foundational concept. Advanced Search comprises of search by Dept., Area, Level, & Day/Time, but at the moment, there are bugs across all these filters. It needs to be either completely rewritten with a fresh set of eyes or the original system can be built upon and improved. The goal is to not only fix the advanced search feature but truly make it a seamless, more intuitive user experience.
+#### Language: 
+#### Skills/Background: Redux, React 
+#### Mentor: Sebastian
+#### Difficulty: Easy/Medium
+
+
 
 ## OpenCRAVAT Projects
 
@@ -22,3 +38,11 @@ Students will choose a project from the list below and apply for it by sending e
 ## Microsoft Powershell Projects
 
 ## Brigade
+
+Template: 
+### project #: Title
+#### Description: 
+#### Language: 
+#### Skills/Background:  
+#### Mentor:  
+#### Difficulty: Easy/Medium
