@@ -5,5 +5,7 @@ The course will provide students a development experience focused on learning so
 The practical side of the course will engage and mentor students directly in OSI-licensed project communities to provide hands-on learning experiences of practices covered in the classroom modules, and team building experience working in the project.
 
 ## Pre-requisites
-601.220 Intermediate Programming
-601.226 Data Structures
+* 601.220 Intermediate Programming
+* 601.226 Data Structures
+
+
