@@ -16,20 +16,20 @@ Students will choose a project from the list below and apply for it by sending e
 ### Semester.ly #1: Revive Advanced Search Feature 
 **Description:** 
 Our current advanced search feature is broken and often inconvenient for the average user, we need want it to not only be fixed but be greater than its foundational concept. Advanced Search comprises of search by Dept., Area, Level, & Day/Time, but at the moment, there are bugs across all these filters. It needs to be either completely rewritten with a fresh set of eyes or the original system can be built upon and improved. The goal is to not only fix the advanced search feature but truly make it a seamless, more intuitive user experience.
-**Language:** 
-**Skills/Background:** Redux, React 
-**Mentor:** Sebastian
-**Difficulty:** Easy/Medium
+**Language:**  
+**Skills/Background:** Redux, React  
+**Mentor:** Sebastian  
+**Difficulty:** Easy/Medium  
 
 ### Semester.ly #2: New Social Features
 #### Description: 
 Textbook Marketplace, Links to Group chats, Links to new student projects, LinkedIn links, Improved User Profiles (choose profile pictures, adjust personal links, etc.), etc. are all ideas to increase social interactions between students.
 At the moment, we have the Facebook integration to use the FB login and see friends in the same classes, but the social features are lacking. We can add many unique social features that don't conflict with typical social media platforms.
-The goal is to create a stepping stone for regular social interactions with a variety of new social features (at a minimum 3-5 distinct ideas)
-#### Language: 
-#### Skills/Background: None
-#### Mentor: Sebastian
-#### Difficulty: Easy to Hard
+The goal is to create a stepping stone for regular social interactions with a variety of new social features (at a minimum 3-5 distinct ideas).  
+#### Language:  
+#### Skills/Background: None  
+#### Mentor: Sebastian  
+#### Difficulty: Easy to Hard  
 
 ### Semester.ly #3: Semester.ly API
 #### Description: 
