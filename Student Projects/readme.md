@@ -14,12 +14,12 @@ Students will choose a project from the list below and apply for it by sending e
 
 ## Semester.ly Projects 
 ### Semester.ly #1: Revive Advanced Search Feature 
-#### Description: 
+**Description:** 
 Our current advanced search feature is broken and often inconvenient for the average user, we need want it to not only be fixed but be greater than its foundational concept. Advanced Search comprises of search by Dept., Area, Level, & Day/Time, but at the moment, there are bugs across all these filters. It needs to be either completely rewritten with a fresh set of eyes or the original system can be built upon and improved. The goal is to not only fix the advanced search feature but truly make it a seamless, more intuitive user experience.
-#### Language: 
-#### Skills/Background: Redux, React 
-#### Mentor: Sebastian
-#### Difficulty: Easy/Medium
+**Language:** 
+**Skills/Background:** Redux, React 
+**Mentor:** Sebastian
+**Difficulty:** Easy/Medium
 
 ### Semester.ly #2: New Social Features
 #### Description: 
