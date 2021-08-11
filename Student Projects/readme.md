@@ -9,7 +9,7 @@ Students will choose a project from the list below and apply for it by sending e
 3. PASS 
 4. [Lutece](https://lutece-platform.github.io/): Lutece is a powerful Java™ based Content Management Framework developed by the [City of Paris](https://lutece.paris.fr/lutece/), and adopted in many places (including the St. Francis Neighborhood Center in Baltimore). 
 5. Microsoft PowerShell 
-6. Brigade
+
 
 
 ## Semester.ly Projects 
@@ -112,13 +112,14 @@ Variant annotation through OpenCRAVAT is largely serial. On the cloud, Google Bi
 
 ## Microsoft Powershell Projects
 
-## Brigade
+
 
 Template: 
 ### project #: Title
 **Description:** 
 stuff </br>
+**Expected outcomes:** 
 **Language:** </br>
 **Skills/Background:** </br> 
 **Mentor:** </br>
-**Difficulty:** Easy/Medium </br>
+**Difficulty:** Easy/Medium/Hard </br>
