@@ -111,6 +111,96 @@ Variant annotation through OpenCRAVAT is largely serial. On the cloud, Google Bi
 ## Lutece Projects
 
 ## Microsoft Powershell Projects
+### Microsoft Powershell #1: Fix Set-Location cmdlet’s error message 
+**Description:** 
+If the Set-Location cmdlet fails due to a permissions error, it writes an error message. This message needs to be more descriptive and indicative of the issue. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/15680](https://github.com/PowerShell/PowerShell/issues/15680)  
+**Language:** C#</br>
+**Skills/Background:** C#, File Systems recommended</br> 
+**Mentor:** </br>
+**Difficulty:** Medium (students would get experience with delving into the engine providers code base of PowerShell) </br>
+
+### Microsoft Powershell #2: Add .ResolvedTarget property to file system instances  
+**Description:** 
+Symlinks are usually defined with relative paths and our current FileInfo and DirectoryInfo file system instances have a .Target property which contains the symlink’s path but as it was defined (relative path). We would like to add a property, .ResolvedTarget, which would contain the symlink’s path but resolved to its full (absolute) path. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/13366](https://github.com/PowerShell/PowerShell/issues/13366)
+**Language:** C#</br>
+**Skills/Background:** C#, file systems, APIs recommended</br> 
+**Mentor:** </br>
+**Difficulty:** Medium </br>
+
+### Microsoft Powershell #3: Correct range on Depth parameter for ConvertTo-Json cmdlet  
+**Description:** 
+ConvertTo-Json is a PowerShell cmdlet that performs serialization. It takes a Depth parameter, which should only take a maximum value of 100, but currently takes int.MaxValue. Student(s) will need to change this, add tests (via PowerShell scripting) and validation for this scenario. They will also get experience working with PowerShell parameter attributes. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/15344](https://github.com/PowerShell/PowerShell/issues/15344)
+**Language:** C#</br>
+**Skills/Background:** C#, scripting, JSON, testing recommended</br> 
+**Mentor:** </br>
+**Difficulty:** Intermediate </br>
+
+### Microsoft Powershell #4: Write-Progress cmdlet not rendered when no wait time in between  
+**Description:** 
+The Write-Progress cmdlet writes progress information to the screen. If you have multiple calls in quick succession, only the first progress message is displayed until some time has elapsed and subsequent progress updates are not provided for some time. Since this is interactive code it may need to also be tested manually. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/13005](https://github.com/PowerShell/PowerShell/issues/13005)
+**Language:** C#</br>
+**Skills/Background:** C#, PowerShell scripting for testing, validation recommended</br> 
+**Mentor:** </br>
+**Difficulty:** EMedium/Advanced (due to working with test hooks and asynchronous code) </br>
+
+### Microsoft Powershell #5: Replace & with WorkingDirectory parameter where Set-Job called
+**Description:** 
+The implementation of & background invocation operator should be using the -WorkingDirectory parameter of Start-Job cmdlet rather than relying on $using:pwd as a way to pass the current working directory. We need to replace this in the code referenced in this issue and then write tests to validate. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/10515](https://github.com/PowerShell/PowerShell/issues/10515)
+**Language:** C#</br>
+**Skills/Background:** C#, PowerShell scripting for testing, validation recommended</br> 
+**Mentor:** </br>
+**Difficulty:** Low (simple fix, but needs validation) </br>
+
+### Microsoft Powershell #6: Add StrictMode parameter to Invoke-Command cmdlet
+**Description:** 
+The Invoke-Command cmdlet needs to have and support a StrictMode parameter, which PowerShell uses to terminate code that doesn’t follow coding best practices. Currently, the user can add a line in their script which calls the Set-StrictMode cmdlet. By adding this as a parameter to Invoke-Command instead, a user could set this in the $PSDefaultParameterValues variable and have it applied to all their scripts without having to explicitly add the call in each script. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/2692](https://github.com/PowerShell/PowerShell/issues/2692) </br>
+**Language:** C#</br>
+**Skills/Background:** C#, PowerShell scripting for testing, validation recommended</br> 
+**Mentor:** </br>
+**Difficulty:** Medium (need to learn about [Strict Mode](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/set-strictmode?view=powershell-7.1))  </br>
+
+### Microsoft Powershell #7: Add Timeout parameter to Invoke-Command cmdlet  
+**Description:** 
+Add a Timeout parameter to the Invoke-Command cmdlet so that we can invoke commands synchronously with timeouts. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/5434](https://github.com/PowerShell/PowerShell/issues/5434)
+**Language:** C#</br>
+**Skills/Background:** C#, PowerShell scripting for testing, validation recommended</br> 
+**Mentor:** </br>
+**Difficulty:** Medium </br>
+
+### Microsoft Powershell #8: Add tab completion for Scope parameters
+**Description:** 
+A handful of PowerShell cmdlets take a Scope parameter, which dictates the scope of paths to consider for the context. The Scope parameter should have defined set of validated values which can be discovered through tab completion, so that it’s easy for a user to explore and not open to just any values. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/8106](https://github.com/PowerShell/PowerShell/issues/8106)
+**Language:** C#</br>
+**Skills/Background:** C# recommended</br> 
+**Mentor:** </br>
+**Difficulty:** Advanced (lot of example code, but finding right example) </br>
+
+### Microsoft Powershell #9: Get-Member cmdlet should support inspecting a .NET type/instance’s implemented interfaces and members  
+**Description:** 
+If a concrete type or instance is provided to Get-Member, the cmdlet should be able to inspect and display the interfaces the instance, as well as members of the instance, implement. Additionally, given an interface type directly examine its members. Lastly, given a concrete instance or type list just its implemented interfaces’ types. To do so, students may have to create new values for -View parameter that Get-Member will support. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/13865](https://github.com/PowerShell/PowerShell/issues/13865)
+**Language:** C#</br>
+**Skills/Background:** C#, reflection in C#, Object Oriented Programming recommended</br> 
+**Mentor:** </br>
+**Difficulty:** Advanced </br>
+
+### Microsoft Powershell #10: Add TimestampHashAlgorithm parameter to Set-AuthenticodeSignature cmdlet  
+**Description:** 
+The Set-AuthenticodeSignature cmdlet adds an authenticode signature to any file, including PowerShell script files, which is used to verify that the file hasn’t been tampered with since when it was signed. We wish to add a TimestampHashAlgorithm, which will take a hash algorithm and use that to create a hash with the timestamp. The hash created with the timestamp will track the creation/modification time of the file and ensure that it wasn’t able to be modified with past the time used in the signature hash. </br>
+**Additional Info:** [https://github.com/PowerShell/PowerShell/issues/5092](https://github.com/PowerShell/PowerShell/issues/5092)
+**Language:** C#</br>
+**Skills/Background:** C#, Security recommended</br> 
+**Mentor:** </br>
+**Difficulty:** Medium (especially if already familiar with security) </br>
+
 
 
 
