@@ -8,9 +8,7 @@ Students will choose a project from the list below and apply for it by sending e
 2. [OpenCRAVAT Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/blob/main/Student%20Projects/readme.md#opencravat-projects): [OpenCRAVAT](https://opencravat.org/index.html) is a new open source, scalable decision support system to support variant and gene prioritization. It is written in Python and developed in the [Karchin Lab](https://karchinlab.org/) at Johns Hopkins University in collaboration with In Silico Solutions with funding provided by the National Cancer Institute's ITCR program. 
 3. PASS 
 4. [Lutece](https://lutece-platform.github.io/): Lutece is a powerful Java™ based Content Management Framework developed by the [City of Paris](https://lutece.paris.fr/lutece/), and adopted in many places (including the St. Francis Neighborhood Center in Baltimore). 
-5. Microsoft PowerShell 
-
-
+5. [Microsoft PowerShell](https://github.com/jhu-ospo-courses/JHU-EN.601.270/blob/main/Student%20Projects/readme.md#microsoft-powershell-projects): PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
 ## Semester.ly Projects 
 ### Semester.ly #1: Revive Advanced Search Feature 
@@ -75,7 +73,7 @@ The are around 20-30,000 genes in the human genome. Previous work has identified
 **Difficulty:** Medium  
 
 ### OpenCRAVAT #3: Variant Ranking
-**Description:** 
+**Description:**  
 There are about 3 million variants in the average human genome, but a small set of these variants are relevant to human health. To make it easier to find these variants, we will create a variant ranking system that identifies variants that are likely benign, have uncertain impact, and are likely pathogenic. Gene-level features would play a strong impact here.  
 **Expected outcomes:** Annotation module  
 **Skills/Background:** Python programming, biological knowledge  
