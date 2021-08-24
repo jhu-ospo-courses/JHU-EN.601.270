@@ -264,38 +264,35 @@ The Set-AuthenticodeSignature cmdlet adds an authenticode signature to any file,
 ## Lutece Projects
 
 ## Yo Wasm Projects
-### Yo Wasm #1: Add support for the Grain language
-
+### Yo Wasm #1: Add support for the Grain language  
 **Description:** 
-Add templates and language specific for the [Grain](https://grain-lang.org/) language. This will allow a user to specify Grain as a choice when scaffolding a new project
-**Expected outcomes:** 
-Successful completion of this feature requires a user to be able to scaffold a new project in the Grain language and can compile and push that project to their configured registry
-**Language:** Grain
-**Skills/Background:** None required, but familiarity with Yeoman or Wasm is useful
+Add templates and language specific for the [Grain](https://grain-lang.org/) language. This will allow a user to specify Grain as a choice when scaffolding a new project  
+**Expected outcomes:**  
+Successful completion of this feature requires a user to be able to scaffold a new project in the Grain language and can compile and push that project to their configured registry  
+**Language:** Grain  
+**Skills/Background:** None required, but familiarity with Yeoman or Wasm is useful  
 **Mentor:** </br>
-**Difficulty:** Medium
+**Difficulty:** Medium  
 
 ### Yo Wasm #2: Add support for the Zig language
-
-**Description:** 
-Add templates and language specific for the [Zig](https://ziglang.org/) language. This will allow a user to specify Zig as a choice when scaffolding a new project
-**Expected outcomes:** 
-Successful completion of this feature requires a user to be able to scaffold a new project in the Zig language and can compile and push that project to their configured registry
-**Language:** Grain
-**Skills/Background:** None required, but familiarity with Yeoman or Wasm is useful
+**Description:**  
+Add templates and language specific for the [Zig](https://ziglang.org/) language. This will allow a user to specify Zig as a choice when scaffolding a new project  
+**Expected outcomes:**  
+Successful completion of this feature requires a user to be able to scaffold a new project in the Zig language and can compile and push that project to their configured registry  
+**Language:** Grain  
+**Skills/Background:** None required, but familiarity with Yeoman or Wasm is useful  
 **Mentor:** </br>
-**Difficulty:** Medium
+**Difficulty:** Medium  
 
-### Yo Wasm #3: Add support for the Tiny Go language
-
-**Description:** 
-Add templates and language specific for the [Tiny Go](https://tinygo.org/) language. This will allow a user to specify Tiny Go as a choice when scaffolding a new project
-**Expected outcomes:** 
-Successful completion of this feature requires a user to be able to scaffold a new project in the Tiny Go language and can compile and push that project to their configured registry
-**Language:** Grain
-**Skills/Background:** None required, but familiarity with Yeoman or Wasm is useful
+### Yo Wasm #3: Add support for the Tiny Go language  
+**Description:**  
+Add templates and language specific for the [Tiny Go](https://tinygo.org/) language. This will allow a user to specify Tiny Go as a choice when scaffolding a new project  
+**Expected outcomes:**  
+Successful completion of this feature requires a user to be able to scaffold a new project in the Tiny Go language and can compile and push that project to their configured registry  
+**Language:** Grain  
+**Skills/Background:** None required, but familiarity with Yeoman or Wasm is useful  
 **Mentor:** </br>
-**Difficulty:** Medium
+**Difficulty:** Medium  
 
 Template: 
 ### project #: Title
