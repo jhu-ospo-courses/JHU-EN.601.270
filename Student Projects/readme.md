@@ -9,6 +9,7 @@ Students will choose a project from the list below and apply for it by sending e
 1. [PASS Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/blob/main/Student%20Projects/readme.md#pass-projects): PASS is the [Public Access Submission System](https://pass.jhu.edu/), a platform to assist researchers in complying with the access policies of their funders and institutions (e.g. NASA, CDC, NIH). While many federal agencies have policies that require research results to be made publicly accessible, the requirements to comply with these vary greatly from one agency to another. These heterogeneous processes for compliance have become burdensome for researchers and their institutions. For research that is funded by multiple agencies, it can be especially complicated to ensure compliance with each funder’s access policy.
 1. [PowerShell Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/blob/main/Student%20Projects/readme.md#microsoft-powershell-projects): Microsoft [PowerShell Core](https://github.com/PowerShell/PowerShell) is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 1. Lutece Student Projects: [Lutece](https://lutece-platform.github.io/) is a powerful Java™ based Content Management Framework developed by the [City of Paris](https://lutece.paris.fr/lutece/), and adopted in many places (including the St. Francis Neighborhood Center in Baltimore). 
+1. [Yo Wasm Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/blob/main/Student%20Projects/readme.md#yo-wasm-projects): [Yo Wasm](https://github.com/deislabs/yo-wasm) is a Yeoman generator for projects intended to build to Wasm and store the built artifacts in a registry. Using Wasm for cloud software is a newly emerging field and there are still various rough edges for getting started with a project. The Yo Wasm generator streamlines and simplifies the process of scaffolding and starting a new projects
 
 ## Semester.ly Projects 
 ### Semester.ly #1: Revive Advanced Search Feature 
@@ -262,6 +263,39 @@ The Set-AuthenticodeSignature cmdlet adds an authenticode signature to any file,
 
 ## Lutece Projects
 
+## Yo Wasm Projects
+### Yo Wasm #1: Add support for the Grain language
+
+**Description:** 
+Add templates and language specific for the [Grain](https://grain-lang.org/) language. This will allow a user to specify Grain as a choice when scaffolding a new project
+**Expected outcomes:** 
+Successful completion of this feature requires a user to be able to scaffold a new project in the Grain language and can compile and push that project to their configured registry
+**Language:** Grain
+**Skills/Background:** None required, but familiarity with Yeoman or Wasm is useful
+**Mentor:** </br>
+**Difficulty:** Medium
+
+### Yo Wasm #2: Add support for the Zig language
+
+**Description:** 
+Add templates and language specific for the [Zig](https://ziglang.org/) language. This will allow a user to specify Zig as a choice when scaffolding a new project
+**Expected outcomes:** 
+Successful completion of this feature requires a user to be able to scaffold a new project in the Zig language and can compile and push that project to their configured registry
+**Language:** Grain
+**Skills/Background:** None required, but familiarity with Yeoman or Wasm is useful
+**Mentor:** </br>
+**Difficulty:** Medium
+
+### Yo Wasm #3: Add support for the Tiny Go language
+
+**Description:** 
+Add templates and language specific for the [Tiny Go](https://tinygo.org/) language. This will allow a user to specify Tiny Go as a choice when scaffolding a new project
+**Expected outcomes:** 
+Successful completion of this feature requires a user to be able to scaffold a new project in the Tiny Go language and can compile and push that project to their configured registry
+**Language:** Grain
+**Skills/Background:** None required, but familiarity with Yeoman or Wasm is useful
+**Mentor:** </br>
+**Difficulty:** Medium
 
 Template: 
 ### project #: Title
