@@ -105,8 +105,69 @@ Variant annotation through OpenCRAVAT is largely serial. On the cloud, Google Bi
 **Difficulty:** Medium  
 
 ## PASS Projects
+### PASS #1: Automatically suggest keywords for PASS submissions  
+**Description:** 
+Users can optionally describe submitted articles with keywords. The goal would be to automatically suggest keywords based on the text. </br>
+**Language:** Javascript, Java</br>
+**Skills/Background:** Machine learning, Natural Language Processing, Docker, Web Services</br> 
+**Mentor:** Mark</br>
+**Difficulty:** Easy to Hard </br>
 
-## Lutece Projects
+### PASS #2: Develop a PASS dashboard for super users  
+**Description:** 
+Administrators like the Vice Provost for Research would like to easily see information such as submission status and compliance. </br>
+**Language:** Javascript</br>
+**Skills/Background:** Docker, Web services</br> 
+**Mentor:** Mark</br>
+**Difficulty:** Easy to Hard </br>
+
+### PASS #3: Swap out existing document store  
+**Description:** 
+PASS uses the Fedora repository to store JSON-LD documents. Switching to a simpler document store might simplify the architecture and improve performance. </br>
+**Language:** Java, Javascript </br>
+**Skills/Background:** Docker, JSON-LD, Web Services </br> 
+**Mentor:** Mark, Derek </br>
+**Difficulty:** Easy to Hard </br>
+
+### PASS #4: Update to Elasticsearch 7  
+**Description:** 
+Currently PASS uses Elasticsearch 6. Upgrading to 7 could open up some new possibilities. </br>
+**Language:** Javascript </br>
+**Skills/Background:** Docker, Web Services</br> 
+**Mentor:** Mark, Derek </br>
+**Difficulty:** Easy to Hard </br>
+
+### PASS #5: Create tools to improve management of the document store and index  
+**Description:** 
+The document store is a Fedora repository which is indexed by Elasticsearch. A [pain point (Issue #149)](https://github.com/OA-PASS/general-issues/issues/149) operating PASS has been ensuring the documents are valid and consistent with the index.  </br>
+**Language:** Javascript, Java</br>
+**Skills/Background:** Docker, Web services</br> 
+**Mentor:** Mark, Bethany</br>
+**Difficulty:** Easy to Hard </br>
+
+### PASS #6: PASS Deposit into Islandora System  
+**Description:** 
+The first part of this is to learn the [PASS deposit service](https://github.com/OA-PASS/deposit-services) well enough to understand the infrastructure for how deposits into DSpace are currently architected.  Then, based on that, document a way and possibly implement how to do something similar for deposits into our new Islandora digital repository system.  </br>
+**Language:** Java</br>
+**Skills/Background:** Docker / REST API / Some Drupal </br> 
+**Mentor:** Bethany </br>
+**Difficulty:** Medium/Hard </br>
+
+### PASS #7: Develop Usage Statistics About People Using the Platform While Maintaining Privacy  
+**Description:** 
+The goal of this project is to develop statistics which would support investigations into how users navigate the site. Tracking a user’s session will give us data about what pages they find useful, and answer questions like, “do users use the dashboards?” This will inform further UI development. </br>
+**Language:** </br>
+**Skills/Background:** Docker / Web Services </br> 
+**Mentor:** Jim, Derek(privacy) </br>
+**Difficulty:** Easy/Medium </br>
+
+### PASS #8: Develop Mechanisms to Identify Submission Failures or Incomplete Submissions and Provide Notifications  
+**Description:** 
+The submission process has many steps, and hence many opportunities for failure. It is important that a submitter knows when a failure occurs so that he or she will not be under the false impression that the submission succeeded. System administrators also need to know the nature of the failure so that the problem can be corrected. Modes of notification may be different for different classes of user and different points of failure.   </br>
+**Language:** Java</br>
+**Skills/Background:** Docker / Web Services </br> 
+**Mentor:** Jim </br>
+**Difficulty:** Medium </br>
 
 ## Microsoft Powershell Projects
 ### Microsoft Powershell #1: Fix Set-Location cmdlet’s error message 
@@ -199,7 +260,7 @@ The Set-AuthenticodeSignature cmdlet adds an authenticode signature to any file,
 **Mentor:** </br>
 **Difficulty:** Medium (especially if already familiar with security) </br>
 
-
+## Lutece Projects
 
 
 Template: 
