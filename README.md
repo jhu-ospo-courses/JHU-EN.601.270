@@ -16,8 +16,13 @@ The practical side of the course will engage and mentor students directly in OSI
 * Be aware of the high-level community and business issues (ownership, licenses, non-profits, community development, culture) 
 * Understand the basic framework for intellectual property that every professional developer needs to know
 
-## Lecture Notes
-Lecture notes will be posted in the Lectures 
+## Lectures
+Lectures, presentations, and notes will be posted in [Lectures section](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Lectures#lectures-and-notes). 
+Lectures will generally consist of notes and a presentation. 
+The presentation will be posted as well. 
+Required readings from the text books will be listed with the lectures. 
+Occassionally published papers will be discussed. 
+The papers's citations will be listed with the appropriate lecture (and the paper will be included on the course Blackboard site). 
 
 ## The Student Project
 Students are expected to complete a student project over the course of the semester. 
