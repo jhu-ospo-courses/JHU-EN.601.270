@@ -16,3 +16,11 @@ The practical side of the course will engage and mentor students directly in OSI
 * Be aware of the high-level community and business issues (ownership, licenses, non-profits, community development, culture) 
 * Understand the basic framework for intellectual property that every professional developer needs to know
 
+## Lecture Notes
+Lecture notes will be posted in the Lectures 
+
+## The Student Project
+Students are expected to complete a student project over the course of the semester. 
+The student projects come from a number of open source projects in the industry, and these open source projects are providing mentors for the work. 
+Student projects are more fully described on the Student Projects page. 
+
