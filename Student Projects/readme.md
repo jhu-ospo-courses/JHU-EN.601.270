@@ -262,6 +262,50 @@ The Set-AuthenticodeSignature cmdlet adds an authenticode signature to any file,
 **Difficulty:** Medium (especially if already familiar with security) </br>
 
 ## Lutece Projects
+### Lutece #1: CMS – Improve the media integration in edition mode  
+**Description:** 
+Lutece has a few plugins made to enable CMS, but the media library management can be improved and the available rich text editors should have more functionalities to correctly integrate those media within the editorial contents. </br>
+**Language:** Java, Javascript </br>
+**Skills/Background:** Web Development, CMS</br> 
+**Mentor:** Philippe, Laurent </br>
+**Difficulty:** Easy to Medium </br>
+
+### Lutece #2: Appointment – Add a portlet management system that would help agenda clustering
+**Description:** 
+An appointment plugins is already available and allows the management of open timeslots for users to book. Currently, only one hard-coded portlet exists that displays available and active agendas in a list mode (as seen on: [https://teleservices.paris.fr/rdvma13/](https://teleservices.paris.fr/rdvma13/)), but we would like to improve this by adding other types of portlets based on either manual selections, or already existing parameters such as the agendas categories. A nice feature would be to add links to portlets within portlets (that would display as cards) </br>
+**Language:** Javascript, Java </br>
+**Skills/Background:** Web Development </br> 
+**Mentor:** Philippe </br>
+**Difficulty:** Easy </br>
+
+### Lutece #3: Appointment – Resource Management module improvement
+**Description:** 
+Improve an existing module that allows assigning a resource to an appointment (based on its type) that can only be done manually currently and is time-consuming. The need is to be able to automatically (randomly, or so that it balances the load of each resource) assign any new appointment with a resource from a typed pool. </br>
+**Language:** Java </br>
+**Skills/Background:** Object development </br> 
+**Mentor:** Philippe </br>
+**Difficulty:** Easy to Medium </br>
+
+### Lutece #4: Participatory Democracy/Citizenship – New feature – Connect citizen/city needs to volunteers offers of assistance
+**Description:** 
+Develop a new feature (with one or a few new plugins) that would allow users to:
+- submit what they're good at doing, and their availabilities to train, or help other citizens or even the city, based on their described skills.
+- search within the list of offers and find a match with our need (or be alerted whenever a keyword is submitted)
+- submit needs of assistance
+- search within the list of needs an item that we can bring expertise to
+- connect the offer of services with the demand for assistance. </br>
+**Language:** Javascript, Java </br>
+**Skills/Background:** Web Development, Modular development, database management </br> 
+**Mentor:** Philippe, Sébastien</br>
+**Difficulty:** Easy to Hard </br>
+
+### Lutece #5: New feature – E-Commerce functionality
+**Description:** 
+Develop a new e-commerce functionality that would allow the publication of a product catalog, a shopping cart management, up until payment) that would allow any cities to sell online administrative procedures (parking card, id/passport renewals, etc.). </br>
+**Language:** Javascript, Java </br>
+**Skills/Background:** Web Development, Modular development, e-commerce</br> 
+**Mentor:** Philippe</br>
+**Difficulty:** Medium to Hard </br>
 
 ## Yo Wasm Projects
 ### Yo Wasm #1: Add support for the Grain language  
