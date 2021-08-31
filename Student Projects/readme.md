@@ -289,11 +289,12 @@ Improve an existing module that allows assigning a resource to an appointment (b
 ### Lutece #4: Participatory Democracy/Citizenship – New feature – Connect citizen/city needs to volunteers offers of assistance
 **Description:** 
 Develop a new feature (with one or a few new plugins) that would allow users to:
-- submit what they're good at doing, and their availabilities to train, or help other citizens or even the city, based on their described skills.
-- search within the list of offers and find a match with our need (or be alerted whenever a keyword is submitted)
-- submit needs of assistance
-- search within the list of needs an item that we can bring expertise to
-- connect the offer of services with the demand for assistance.  
+- Submit what they're good at doing, and their availabilities to train, or help other citizens or even the city, based on their described skills.
+- Search within the list of offers and find a match with our need (or be alerted whenever a keyword is submitted)
+- Submit needs of assistance
+- Search within the list of needs an item that we can bring expertise to
+- Connect the offer of services with the demand for assistance.  
+
 **Language:** Javascript, Java </br>
 **Skills/Background:** Web Development, Modular development, database management </br> 
 **Mentor:** Philippe, Sébastien</br>
