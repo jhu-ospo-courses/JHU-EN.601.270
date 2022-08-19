@@ -1,8 +1,8 @@
 # JHU-EN.601.270 
 
 ## Sessions
-* Fall 2021
-* Fall 2022
+* [Fall 2021](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2021#fall-2021)
+* [Fall 2022](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2022#fall-2022)
 
 ## Open Source Software Engineering -- Semesters of Code I
 
