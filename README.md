@@ -1,4 +1,9 @@
 # JHU-EN.601.270 
+
+## Sessions
+* Fall 2021
+* Fall 2022
+
 ## Open Source Software Engineering -- Semesters of Code I
 
 The course will provide students a development experience focused on learning software engineering skills to deliver software at scale to a broad community of users associated with open source licensed projects. The class work will introduce students to ideas behind open source software with structured modules on recognizing and building healthy project structure, intellectual property basics, community & project governance, social and ethical concerns, and software economics.
