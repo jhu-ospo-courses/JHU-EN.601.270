@@ -26,9 +26,113 @@ Students will choose a project from the list below and apply for it by sending e
 ### Microsoft Powershell #1: ...
 
 ## Lutece Projects
-### Lutece #1: ...
+### Lutece project #1
+### [New plugin development] Similar Availabilities
 **Description:** 
-.... </br>
+A frequent request we have is for the development of a functionality that allows to find common availabilities in order to 
+arrange a meeting time. In a similar way to doodle, the application must allow in the back office to set :
+- date ranges on which participants define the time slots where they are available
+- time slots
+- A list of participants to send the invitation to
+- A range of publication dates
+- an option to be notified at each contribution / when all participants have filled in their availability
+- Match the contributions of all to extract a synthesis (common time slots for all, or those with the most participants)
+- ... (any ideas are welcome)
+
+In front-office :
+- The login is mandatory to access the functionality
+- participants can easily (as user-friendly as possible) enter their availability
+- They must be able to modify their contributions during the publication period, or as long as everyone has not responded, 
+or as the owner/admin hasn't stopped the campain
+- (any ideas are welcome)<br>
+
+</br>
+Additional information:<br>
+Expected outcomes: <br>
+Language: <br>
+Skills/Background: <br>
+Mentor: <br>
+Difficulty: Level 2/5 <br>
+
+### Lutece project #2 <br> 
+### Title: [New plugin development] Sheperd <br>
+**Description:** 
+To improve the distribution and use of lutece in a broad way, we are developing a set of functionalities that will allow to quickly 
+learn how to use the business bricks.
+
+We want to set up a wizard that allows the user (back office or front office) to understand how to use the interface. 
+Upon a new connection (identified thanks to the cookies), the wizard will automatically launch and suggest to the user to follow a 
+guide explaining each element of the page and how to relaunch it once closed. Ideally present on each page, a button allows to launch the dedicated scenario.
+
+Pre-requisite: use a library like sheperdjs, or compatible with our BSD license, e.g. Apache commons, GPL > 3, MIT...)
+
+We would start on the Lutece core project, to help the understanding of RBAC for example, it could then be extended to the plugins 
+integrated in the site.
+
+A static example is available and can be shown/run, but needs a better integration and an way to edit the scenarios in the back-office 
+and link them to the pages where they need to be accessible.<br>
+</br>
+**Additional information:** 
+</br>
+**Expected outcomes:** </br>
+**Language:** </br>
+**Skills/Background:** </br> 
+**Mentor:** </br>
+**Difficulty:** Level 2/5 </br>
+
+### Lutece project #3<br>
+### Title: [New plugin development] New resource management system<br>
+**Description:** 
+A new plugin that manages items/resources would be very useful to connect to other plugins.
+It would define ressource types along with parameters (duration, pre-reqs, documents – editable fields 
+based on the generic-attributes plugin). It would also be indexed and available through SolR (already existing plugin). 
+If possible, add a front office page for users to browse through resources and use a filter-based and facets-based search.
+
+It would allow people to either use the resources or borrow them on a specific time range. It would be as generic as possible 
+(items, rooms, musical instruments…) and it would be a plus if the user could combine resources (looking for an available trumpet 
+and a rehearsal room between Tuesday and Thursday for half a day).</br>
+
+**Additional information:** </br>
+**Expected outcomes:** </br>
+**Language:** </br>
+**Skills/Background:** </br> 
+**Mentor:** </br>
+**Difficulty:** Level: 3/5 for the management system in Back Office - 4/5 with indexation + front office </br>
+
+### Lutece project #4<br>
+### Title: [Plugin contribution] Resource management system module to use within the appointment plugin.<br>
+**Description:** 
+A Lutece module is considered as a plugins plugin. Plugins bring features to Lutece websites. Modules connect plugins. For example, the appointment plugin features all that is needed to set agendas, availabilities and so on. The workflow plugin brings automation and configurable actions when a resource (request, appointment…) reaches new states. A module that connects the appointment plugin with the workflow plugin (and called module-appointment-workflow) brings all the appointment specificities into the workflow so that we can use business-related functions when appointments switch states.
+
+Currently, such a module exists linking the resource plugin to the appointment plugin. It helps to associate a resource (equipment, staff…) with an appointment, but it can only be done manually : an admin choses a resource from a list and assigns it to the appointment so it is not longer available in the timeslot. The module needs to be upgraded so that this action can be done automatically, according to a few settings :
+
+- Pick randomly from the list
+- Choose an item so that it leverages the load of all, or on the contrary the most used so the others don’t get worn out
+-  …
+Handle the case if no resources are available (notification to the admin, etc.)<br>
+
+**Additional information:** </br>
+**Expected outcomes:** </br>
+**Language:** </br>
+**Skills/Background:** </br> 
+**Mentor:** </br>
+**Difficulty:** Level: 3/5 starting from a fork - 4/5 otherwise </br>
+
+### Lutece project #5<br>
+### Title: [New module development] Appointment queuing management system<br>
+**Description:** 
+This feature is highly requested by business units across the City. Since the appointment plugin is used to display 
+availabilities for more than 400 services, some of them have very high demand. That means there are a few availabilities 
+and users hardly find any. In a first version, we would love to provide them the possibility to register to a list that 
+would be notified every time there are new availabilities – on a date range, or time range - due to cancelations or new 
+timeslots added (any ideas to be as user-friendly as possible are welcome).</br>
+<br>
+**Additional information:** </br>
+**Expected outcomes:** </br>
+**Language:** </br>
+**Skills/Background:** </br> 
+**Mentor:** </br>
+**Difficulty:** Level: 5/5 </br>
 
 
 
