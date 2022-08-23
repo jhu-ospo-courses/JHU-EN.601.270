@@ -6,56 +6,32 @@ The lectures in the inaugural class are listed below.
 They had learning objectives (from which test questions were pulled). 
 Each was a presentation with pointers to relevant textbook readings, presented in a hybrid class format.  
 
-    L1: Introduction to course, syllabus, student project matching! The Game as an introduction to software engineering, building Apache httpd as a simple example of what liberally licensed component software in a well-run project provides.  
-
-    L2: The Economics of Open Source Software: The basic engineering economics discussion of build vs. buy vs. borrow & share when you add open source projects. Thinking about software value. The different economics inherent in open source project consumption versus production.  
-
-    L3: Software Engineering Models, Life Cycles, and Economics 
-
-    L4: An Introduction to Open Source Project Practices & the Trusting Trust article discussion  
-
-    L5: Digging Deeper on Open Source Project Practices  
-
-    L6: Evaluating Open Source Projects & Silver Bullets Discussions. This included a small homework assignment where each student had to build a major open source project from scratch, and use the framework developed in the past few lectures to analyze the basic health of the project community. They then reported out on their experience, and we discussed it in class. They had a choice of building Perl, Python, or Node.js.  
-
-    L7: Versions & Branches & Builds. This lecture began to introduce students to version control basics, branching strategies, and reliable builds, and the basic ideas for how a project evolves and changes. We did not discuss specific tools.  
-
-    L8: Intro to Building OSS Project Communities & Google’s Giant Repo article discussion. This was the beginning of approaches to community organization and the social engineering required for collaborative work.  
-
-    L9: Test Results & AMA Discussions, Starting a Project  
-
-    L10: Technical Infrastructure in open source projects & Conway’s Law article discussion  
-
-    L11: Non-Profits & Growth in open source projects. The growth of open source non-profits is accelerating in the industry and understanding their role as a tool for project and community growth by removing liability is important.  
-
-    L12: Social & Political Infrastructure within an open source project & the IETF article discussion  
-
-    L13: Company Involvement in open source projects. This section is something they would likely encounter in a work environment. It is well covered in the text and I would modify this to a reading assignment in future.  
-
-    L14: Packaging and Releases: The introduction to thinking about the role of release management in building software at scale and the idea that release management is a constant.  
-
-    L15: Communications Culture in open source software projects.  
-
-    L16: Managing Participants + Test Prep 
-
-    L17: Introduction to Intellectual Property for Engineers  
-
-    L18: Copyrights, Software, & OSS Licenses 
-
-    L19: Trademarks 
-
-    L20: Patents  
-
-    L21: Why your open source software startup will fail … This was the “so you want to start a company talk” to introduce students to how to think about a software company. It was done more as a fun talk towards the end of the course.  
-
-    L22: Software Transmitted Disease (aka Dependencies): The software supply chain continues to get more complex. This lecture took students down the rabbit hole.  
+L1: Introduction to course, syllabus, student project matching! The Game as an introduction to software engineering, building Apache httpd as a simple example of what liberally licensed component software in a well-run project provides.  
+L2: The Economics of Open Source Software: The basic engineering economics discussion of build vs. buy vs. borrow & share when you add open source projects. Thinking about software value. The different economics inherent in open source project consumption versus production.  
+L3: Software Engineering Models, Life Cycles, and Economics 
+L4: An Introduction to Open Source Project Practices & the Trusting Trust article discussion  
+L5: Digging Deeper on Open Source Project Practices  
+L6: Evaluating Open Source Projects & Silver Bullets Discussions. This included a small homework assignment where each student had to build a major open source project from scratch, and use the framework developed in the past few lectures to analyze the basic health of the project community. They then reported out on their experience, and we discussed it in class. They had a choice of building Perl, Python, or Node.js.  
+L7: Versions & Branches & Builds. This lecture began to introduce students to version control basics, branching strategies, and reliable builds, and the basic ideas for how a project evolves and changes. We did not discuss specific tools.  
+L8: Intro to Building OSS Project Communities & Google’s Giant Repo article discussion. This was the beginning of approaches to community organization and the social engineering required for collaborative work.  
+L9: Test Results & AMA Discussions, Starting a Project  
+L10: Technical Infrastructure in open source projects & Conway’s Law article discussion  
+L11: Non-Profits & Growth in open source projects. The growth of open source non-profits is accelerating in the industry and understanding their role as a tool for project and community growth by removing liability is important.  
+L12: Social & Political Infrastructure within an open source project & the IETF article discussion  
+L13: Company Involvement in open source projects. This section is something they would likely encounter in a work environment. It is well covered in the text and I would modify this to a reading assignment in future.  
+L14: Packaging and Releases: The introduction to thinking about the role of release management in building software at scale and the idea that release management is a constant.  
+L15: Communications Culture in open source software projects.  
+L16: Managing Participants + Test Prep 
+L17: Introduction to Intellectual Property for Engineers  
+L18: Copyrights, Software, & OSS Licenses 
+L19: Trademarks 
+L20: Patents  
+L21: Why your open source software startup will fail … This was the “so you want to start a company talk” to introduce students to how to think about a software company. It was done more as a fun talk towards the end of the course.  
+L22: Software Transmitted Disease (aka Dependencies): The software supply chain continues to get more complex. This lecture took students down the rabbit hole.  
 
 # Textbooks and Other Assigned Reading  
-
 There were two assigned textbooks:  
-
 1. Fogel, Karl, “Producing Open Source Software”, O’Reilly Media, 2017. Karl has updated the book from the original 2005 edition and it is available for free in PDF format. I find it the best practical guide for teaching purposes over several other excellent books with different target audiences.  
-
 1. Lindberg, Van, “Intellectual Property and Open Source: A Practical Guide to Protecting Code”, O’Reilly Media, 2008. Van is presently updating the book to cover some of the more interesting industry evolution over the past 15 years, but the first edition is an excellent explanation of the roots of intellectual property law, its application to software, and how open source licenses fit into the IP landscape. Van gave me permission to use a free PDF version of the textbook as the course was exploratory.  
 
 I was looking for concise, well written books students can refer to in their careers. 
