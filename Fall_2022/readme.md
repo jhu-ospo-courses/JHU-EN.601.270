@@ -12,14 +12,47 @@ Students will choose a project from the list below and apply for it by sending e
 
 
 ## PASS Projects
-### PASS #1: ...
+### PASS #1: Port manuscript download web service from Go to Java. <br>
 **Description:** 
-... </br>
-**Additional Info:** ... </br>
-**Language:** ... </br>
-**Skills/Background:** ... </br> 
-**Mentor:** ... </br>
-**Difficulty:** Easy to Hard </br>
+This is a small service with a REST API written in Go. It should be completely rewritten as a Java Maven module such that 
+the Java version can be a drop in replacement. There also must be unit testing, integration testing, and a Docker container to run the service. </br>
+</br>
+**Language:** Go, Java </br>
+**Skills/Background:** Web Services, Maven, Docker </br> 
+**Expected Outcome:** Functioning download service implemented in Java <br>
+**Mentor:** PASS team </br>
+**Difficulty:** Easy </br>
+<br>
+### PASS #2: Port metadata schema web service from Go to Java. <br>
+**Description:** 
+This is a small service with a REST API written in Go. It should be completely rewritten as a Java Maven module such that the Java version can be a drop in replacement. There also must be unit testing, integration testing, and a Docker container to run the service. </br>
+</br>
+**Language:** Go, Java </br>
+**Skills/Background:** Web Services, Maven, Docker </br> 
+**Expected Outcome:** unctional schema service implemented in Java <br>
+**Mentor:** PASS team </br>
+**Difficulty:** Medium </br>
+<br>
+### PASS #3: Port policy web service from Go to Java. <br>
+**Description:** 
+This is a small service with a REST API written in Go. It should be completely rewritten as a Java Maven module such that the Java version can be a drop in replacement. There also must be unit testing, integration testing, and a Docker container to run the service. </br>
+</br>
+**Language:** Go, Java </br>
+**Skills/Background:** Web Services, Maven, Docker </br> 
+**Expected Outcome:** Functioning policy service implemented in Java <br>
+**Mentor:** PASS team </br>
+**Difficulty:** Medium </br>
+<br>
+### PASS #4: Create an acceptance testing module for the UI and import existing mocked tests. <br>
+**Description:** 
+TestCafe should be used as the framework. Existing tests which have mocked interactions will be used as the initial set of acceptance tests. </br>
+</br>
+**Language:** Javascript </br>
+**Skills/Background:** Node.js, HTML </br> 
+**Expected Outcome:** Functioning test suite using imported mocks <br>
+**Mentor:** PASS team </br>
+**Difficulty:** Medium </br>
+<br>
 
 
 ## Microsoft Powershell Projects
