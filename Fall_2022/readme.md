@@ -59,8 +59,7 @@ TestCafe should be used as the framework. Existing tests which have mocked inter
 ### Microsoft Powershell #1: ...
 
 ## Lutece Projects
-### Lutece project #1
-### [New plugin development] Similar Availabilities
+### Lutece project #1: [New plugin development] Similar Availabilities<br>
 **Description:** 
 A frequent request we have is for the development of a functionality that allows to find common availabilities in order to 
 arrange a meeting time. In a similar way to doodle, the application must allow in the back office to set :
@@ -87,8 +86,7 @@ Skills/Background: <br>
 Mentor: <br>
 Difficulty: Level 2/5 <br>
 
-### Lutece project #2 <br> 
-### Title: [New plugin development] Sheperd <br>
+### Lutece project #2: [New plugin development] Sheperd <br>
 **Description:** 
 To improve the distribution and use of lutece in a broad way, we are developing a set of functionalities that will allow to quickly 
 learn how to use the business bricks.
@@ -113,8 +111,7 @@ and link them to the pages where they need to be accessible.<br>
 **Mentor:** </br>
 **Difficulty:** Level 2/5 </br>
 
-### Lutece project #3<br>
-### Title: [New plugin development] New resource management system<br>
+### Lutece project #3: [New plugin development] New resource management system<br>
 **Description:** 
 A new plugin that manages items/resources would be very useful to connect to other plugins.
 It would define ressource types along with parameters (duration, pre-reqs, documents – editable fields 
@@ -132,8 +129,7 @@ and a rehearsal room between Tuesday and Thursday for half a day).</br>
 **Mentor:** </br>
 **Difficulty:** Level: 3/5 for the management system in Back Office - 4/5 with indexation + front office </br>
 
-### Lutece project #4<br>
-### Title: [Plugin contribution] Resource management system module to use within the appointment plugin.<br>
+### Lutece project #4: [Plugin contribution] Resource management system module to use within the appointment plugin.<br>
 **Description:** 
 A Lutece module is considered as a plugins plugin. Plugins bring features to Lutece websites. Modules connect plugins. For example, the appointment plugin features all that is needed to set agendas, availabilities and so on. The workflow plugin brings automation and configurable actions when a resource (request, appointment…) reaches new states. A module that connects the appointment plugin with the workflow plugin (and called module-appointment-workflow) brings all the appointment specificities into the workflow so that we can use business-related functions when appointments switch states.
 
@@ -151,8 +147,7 @@ Handle the case if no resources are available (notification to the admin, etc.)<
 **Mentor:** </br>
 **Difficulty:** Level: 3/5 starting from a fork - 4/5 otherwise </br>
 
-### Lutece project #5<br>
-### Title: [New module development] Appointment queuing management system<br>
+### Lutece project #5: [New module development] Appointment queuing management system<br>
 **Description:** 
 This feature is highly requested by business units across the City. Since the appointment plugin is used to display 
 availabilities for more than 400 services, some of them have very high demand. That means there are a few availabilities 
@@ -167,9 +162,53 @@ timeslots added (any ideas to be as user-friendly as possible are welcome).</br>
 **Mentor:** </br>
 **Difficulty:** Level: 5/5 </br>
 
+## enarx Projects
+### enarx #1: Benchmarking of WebAssembly/WASI <br>
+**Description:** 
+WebAssembly/WASI support varies widely across different programming languages. The goal is to create a testing framework that will automatically generate a matrix showing information like I/O support, socket support, file size, execution time, etc. This framework will run code samples from our Codex repository (https://github.com/enarx/codex/).</br>
+</br>
+**Language:** Bash </br>
+**Skills/Background:** GitHub Actions </br> 
+**Mentor:** Roman </br>
+**Difficulty:** Medium/Hard </br>
+<br>
+### enarx #2: Secure notes inside Enarx Keep <br>
+**Description:** 
+Develop a web-based in-memory private text sharing application. Once users connect, they are asked for authentication via an OpenID Connect/OAuth2 provider and have access to either create a new note or read an existing one. </br>
+MVP: notes are private and can only be read by the creator.<br>
+Stretch goal: sharing notes with a list of users (identified via OIDC subject ID)<br>
+Example: https://www.pastebin.com, https://etherpad.org/, https://pad.riseup.net/<br>
+</br>
+**Language:** Any supported language. </br>
+**Skills/Background:** Web development/frameworks </br> 
+**Mentor:** Richard, Roman </br>
+**Difficulty:** Easy/Medium </br>
+<br>
+### enarx #3:  Chat app in Enarx Keep <br>
+**Description:** 
+Develop a chat client using a simple custom protocol running in Enarx. The project can be done in a programming language of your choice and a reference implementation in Rust along with a common Web interface will be provided.
+<br>
+One of the main case studies for Confidential Computing is the Signal messaging application, which offers end-to-end encryption using Intel SGX. A chat app in Enarx would be cross-platform.
+<br>
 
+MVP: Terminal chat client
+<br>
+Stretch goal: Connect the client to a provided Web Interface </br>
+</br>
+**Skills/Background:** Networking </br> 
+**Mentor:** Richard, Roman </br>
+**Difficulty:** Medium/Hard </br>
 
-Template: 
+3.1 Chat app in Rust
+<br>
+3.2 Chat app in C
+<br>
+3.3 Chat app in C++
+
+<br>
+<br>
+
+## Template: 
 ### project #: Title
 **Description:** 
 stuff </br>
