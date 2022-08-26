@@ -6,9 +6,9 @@ Students will choose a project from the list below and apply for it by sending e
 
 ## Open Source Student Projects 
 1. [PASS Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2022#pass-projects): PASS is the [Public Access Submission System](https://pass.jhu.edu/), a platform to assist researchers in complying with the access policies of their funders and institutions (e.g. NASA, CDC, NIH). While many federal agencies have policies that require research results to be made publicly accessible, the requirements to comply with these vary greatly from one agency to another. These heterogeneous processes for compliance have become burdensome for researchers and their institutions. For research that is funded by multiple agencies, it can be especially complicated to ensure compliance with each funder’s access policy.
-1. [PowerShell Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2022#microsoft-powershell-projects): Microsoft [PowerShell Core](https://github.com/PowerShell/PowerShell) is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
-1. [Lutece Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2022#lutece-projects): [Lutece](https://lutece-platform.github.io/) is a powerful Java™ based Content Management Framework developed by the [City of Paris](https://lutece.paris.fr/lutece/), and adopted in many places (including the St. Francis Neighborhood Center in Baltimore). 
-
+2. [PowerShell Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2022#microsoft-powershell-projects): Microsoft [PowerShell Core](https://github.com/PowerShell/PowerShell) is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
+3. [Lutece Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2022#lutece-projects): [Lutece](https://lutece-platform.github.io/) is a powerful Java™ based Content Management Framework developed by the [City of Paris](https://lutece.paris.fr/lutece/), and adopted in many places (including the St. Francis Neighborhood Center in Baltimore).
+4. [PatternFly Student Projects](#patternfly-projects): [PatternFly](https://www.patternfly.org) is an open source design system built to drive consistency and unify teams, and is used broadly by many open source products from [Red Hat](https://www.redhat.com). From documentation and components to code examples and tutorials, PatternFly is a place where design and development can thrive. We’re on a mission to help teams build consistent, accessible, and scalable enterprise product experiences—the open source way.
 
 
 ## PASS Projects
@@ -166,7 +166,46 @@ timeslots added (any ideas to be as user-friendly as possible are welcome).</br>
 **Skills/Background:** </br> 
 **Mentor:** </br>
 **Difficulty:** Level: 5/5 </br>
+<br>
 
+## PatternFly projects
+
+### PatternFly project #1: Convert interactive component examples from Javascript to Typescript
+
+**Description:**
+PatternFly examples provide interactive working code snippets which illustrate different use cases to consumers and allow them to try out various interactions.  These examples were originally written in Javascript + React, but are being converted to Typescript + React to provide increased guardrails around their usage and better match the current technologies of our consumers.  Each PatternFly component typically contains several exaamples, so this project allows a student to ramp up in complexity while offering a quick path to making pull request contributions and see their work reflected on our live website.
+</br>
+
+**Additional information:** This work consists of many smaller issues contained within one large epic.  All mentors and the greater team have experience with this workflow, and existing completed work serves as a template to help students ramp up quickly.  Students will work into PatternFly's 3-week sprint schedule.</br>
+**Expected outcomes:** Students will gain confidence in Typescript, be able to submit multiple pull requests building towards this goal, and see completed work reflected live to our community on the PatternFly website.</br>
+**Language:** Javascript, Typescript, React</br>
+**Skills/Background:** </br>
+**Mentors:** Austin & Eric</br>
+**Difficulty:** Medium </br>
+
+### PatternFly project #2: Update component unit tests to meet new standards with React Testing Library
+
+**Description:**
+PatternFly is used by individual consumers and massive corporate software alike, and as such must maintain a focus on consistency and reliability even while releasing every three weeks.  To this end the PatternFly team implements several different methods for testing code to ensure no breaking changes are introduced - unit tests, snapshot tests, integration tests, accessibility testing, manual end-to-end testing, and more.  The team's goal is to reimplement unit tests with React Testing Library, which will be enable support for React 18 while allowing the team to ensure that tests are accurately covering all required test cases and not providing a false sense of security.</br>
+
+**Additional information:**  This work consists of many smaller issues contained within one large epic.  The PatternFly team has recently ramped up on React Testing Library ([documentation captured here](https://github.com/patternfly/patternfly-react/wiki/React-Testing-Library-Basics,-Best-Practices,-and-Guidelines)) and are happy to bring a student up to speed on this technology as well, so no React Testing Library prior experience is required.  Existing completed work serves as templates that students can reference,   Students will work into PatternFly's 3-week sprint schedule.</br>
+**Expected outcomes:** Students will gain understanding of & appreciation for testing code, specifically with React Testing Library.  They will be able to contribute multiple smaller pull requests towards this larger epic, and their work will help ensure the PatternFly code base remains stable moving forward.</br>
+**Language:** React</br>
+**Skills/Background:** </br>
+**Mentor:** Austin (primary), Eric</br>
+**Difficulty:** Medium</br>
+
+### PatternFly project #3: Improve PatternFly.org website's accessibility
+
+**Description:**
+PatternFly prides itself on putting a focus on accessibility into every decision - the design system should cater to all users, regardless of their specific abilities.  In addition to the code the team ships and is consumed by users, the documentation website which not only provides general information about PatternFly but also interactive examples and demos should maintain a focus on accessibility.  This project is aimed to resolve many accessibility bugs identified across the PatternFly website, which can be related to specific component HTML/Handlebars or React/Typescript code examples, custom code used specifically to build out the website, or other combinations of issues.  Errors have been pre-identified by the React team, and this project consists of a number of smaller code contributions that can be split up across multiple pull requests.</br>
+
+**Additional information:**  This work consists of many smaller issues contained within one large epic.  Previous accessibility work is not required to be successful.  Existing completed work serves as templates that students can reference.  Students will work into PatternFly's 3-week sprint schedule.</br>
+**Expected outcomes:** Students will gain understanding of & appreciation for accessible web experiences, and learn about automated accessibility testing through aXe, keyboard interaction, and screen readers.  They will be able to contribute multiple smaller pull requests towards this larger epic, and their work will have immediate impacts on PatternFly's website.</br>
+**Language:** React, HTML, Handlebars</br>
+**Skills/Background:** </br>
+**Mentor:** Eric (primary), Austin</br>
+**Difficulty:** Medium</br>
 
 
 Template: 
