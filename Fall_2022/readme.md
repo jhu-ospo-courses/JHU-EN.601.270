@@ -437,7 +437,7 @@ Develop a chat client using a simple custom protocol running in Enarx. The proje
 One of the main case studies for Confidential Computing is the Signal messaging application, which offers end-to-end encryption using Intel SGX. A chat app in Enarx would be cross-platform. </br>
 * Chat app in Rust
 * Chat app in C
-* Chat app in C++ 
+* Chat app in C++ </br>
 **MVP:** Terminal chat client </br>
 **Stretch goal:** Connect the client to a provided Web Interface </br>
 **Language:** </br>
