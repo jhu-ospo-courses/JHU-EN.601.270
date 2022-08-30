@@ -9,6 +9,7 @@ Students will choose a project from the list below and apply for it by sending e
 2. [PowerShell Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2022#microsoft-powershell-projects): Microsoft [PowerShell Core](https://github.com/PowerShell/PowerShell) is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 3. [Lutece Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2022#lutece-projects): [Lutece](https://lutece-platform.github.io/) is a powerful Java™ based Content Management Framework developed by the [City of Paris](https://lutece.paris.fr/lutece/), and adopted in many places (including the St. Francis Neighborhood Center in Baltimore).
 4. [PatternFly Student Projects](#patternfly-projects): [PatternFly](https://www.patternfly.org) is an open source design system built to drive consistency and unify teams, and is used broadly by many open source products from [Red Hat](https://www.redhat.com). From documentation and components to code examples and tutorials, PatternFly is a place where design and development can thrive. We’re on a mission to help teams build consistent, accessible, and scalable enterprise product experiences—the open source way.
+5. [enarx Student Projects](#enarx-projects): The [enarx project](https://enarx.dev/) is an open source framework for running applications in TEEs (Trusted Execution Environments). It's part of the Confidential Computing Consortium from the Linux Foundation. It provides a WebAssembly runtime which uses TEEs, allowing developers to deploy secure applications using a variety of languages, such as: Rust, C/C++, C#, Go, and more. It is CPU-architecture independent, letting developers deploy the same application code transparently across multiple targets and architectures
 
 
 ## PASS Projects
@@ -408,6 +409,41 @@ PatternFly prides itself on putting a focus on accessibility into every decision
 **Skills/Background:** </br>
 **Mentor:** Eric (primary), Austin</br>
 **Difficulty:** Medium</br>
+
+## enarx projects
+
+### enarx #1: Benchmarking of WebAssembly/WASI
+**Description:** 
+WebAssembly/WASI support varies widely across different programming languages. The goal is to create a testing framework that will automatically generate a matrix showing information like I/O support, socket support, file size, execution time, etc. This framework will run code samples from our Codex repository (https://github.com/enarx/codex/). </br>
+**Language:** Bash </br>
+**Skills/Background:** GitHub Actions </br> 
+**Mentor:** Roman </br>
+**Difficulty:** Medium/Hard </br>
+
+### enarx #2: Secure notes inside Enarx Keep
+**Description:** 
+Develop a web-based in-memory private text sharing application. Once users connect, they are asked for authentication via an OpenID Connect/OAuth2 provider and have access to either create a new note or read an existing one. </br>
+**MVP:** Notes are private and can only be read by the creator. </br>
+**Stretch Goal:** Sharing notes with a list of users (identified via OIDC subject ID) </br>
+**Language:** Any supported language </br>
+**Skills/Background:** Web development/frameworks </br> 
+**Mentor:** Richard, Roman </br>
+**Difficulty:** Easy/Medium </br>
+**Examples:** https://www.pastebin.com, https://etherpad.org/, https://pad.riseup.net/
+
+### enarx #3: Chat app in Enarx Keep (Multiple Students)
+**Description:** 
+Develop a chat client using a simple custom protocol running in Enarx. The project can be done in a programming language of your choice and a reference implementation in Rust along with a common Web interface will be provided.
+One of the main case studies for Confidential Computing is the Signal messaging application, which offers end-to-end encryption using Intel SGX. A chat app in Enarx would be cross-platform. </br>
+* 3.1 Chat app in Rust
+* 3.2 Chat app in C
+* 3.3 Chat app in C++
+**MVP:** Terminal chat client </br>
+**Stretch goal:** Connect the client to a provided Web Interface </br>
+**Language:** </br>
+**Skills/Background:** Networking </br> 
+**Mentor:** Richard, Roman </br>
+**Difficulty:** Medium/Hard </br>
 
 
 Template: 
