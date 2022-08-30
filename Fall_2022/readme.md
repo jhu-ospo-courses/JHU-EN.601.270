@@ -11,6 +11,8 @@ Students will choose a project from the list below and apply for it by sending e
 4. [PatternFly Student Projects](#patternfly-projects): [PatternFly](https://www.patternfly.org) is an open source design system built to drive consistency and unify teams, and is used broadly by many open source products from [Red Hat](https://www.redhat.com). From documentation and components to code examples and tutorials, PatternFly is a place where design and development can thrive. We’re on a mission to help teams build consistent, accessible, and scalable enterprise product experiences—the open source way.
 5. [enarx Student Projects](#enarx-projects): The [enarx project](https://enarx.dev/) is an open source framework for running applications in TEEs (Trusted Execution Environments). It's part of the Confidential Computing Consortium from the Linux Foundation. It provides a WebAssembly runtime which uses TEEs, allowing developers to deploy secure applications using a variety of languages, such as: Rust, C/C++, C#, Go, and more. It is CPU-architecture independent, letting developers deploy the same application code transparently across multiple targets and architectures
 6. [OHDSI Student Projects](#OHDSI-projects): [Observational Health Data Sciences and Informatics](https://www.ohdsi.org/) (OHDSI) is multi-stakeholder, interdisciplinary, open-science collaborative to bring out the value of health data through large-scale analytics.  OHDSI’s mission is to improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.  OHDSI collaborates in many aspects of the journey from data to evidence, including open community data standards, open-source software development, open methodological research, and open network clinical research.   
+7. [.NET Student Projects]()#.NET-Projects): .NET Description 
+
 
 ## PASS Projects
 ### PASS #1: Port manuscript download web service from Go to Java. <br>
@@ -372,13 +374,10 @@ timeslots added (any ideas to be as user-friendly as possible are welcome).</br>
 <br>
 
 ## PatternFly projects
-
-### PatternFly project #1: Convert interactive component examples from Javascript to Typescript
-
+### PatternFly project #1: Convert interactive component examples from Javascript to Typescript (Multiple Students)
 **Description:**
 PatternFly examples provide interactive working code snippets which illustrate different use cases to consumers and allow them to try out various interactions.  These examples were originally written in Javascript + React, but are being converted to Typescript + React to provide increased guardrails around their usage and better match the current technologies of our consumers.  Each PatternFly component typically contains several exaamples, so this project allows a student to ramp up in complexity while offering a quick path to making pull request contributions and see their work reflected on our live website.
 </br>
-
 **Additional information:** This work consists of many smaller issues contained within one large epic.  All mentors and the greater team have experience with this workflow, and existing completed work serves as a template to help students ramp up quickly.  Students will work into PatternFly's 3-week sprint schedule.</br>
 **Expected outcomes:** Students will gain confidence in Typescript, be able to submit multiple pull requests building towards this goal, and see completed work reflected live to our community on the PatternFly website.</br>
 **Language:** Javascript, Typescript, React</br>
@@ -386,11 +385,9 @@ PatternFly examples provide interactive working code snippets which illustrate d
 **Mentors:** Austin & Eric</br>
 **Difficulty:** Medium </br>
 
-### PatternFly project #2: Update component unit tests to meet new standards with React Testing Library
-
+### PatternFly project #2: Update component unit tests to meet new standards with React Testing Library (Multiple Students)
 **Description:**
 PatternFly is used by individual consumers and massive corporate software alike, and as such must maintain a focus on consistency and reliability even while releasing every three weeks.  To this end the PatternFly team implements several different methods for testing code to ensure no breaking changes are introduced - unit tests, snapshot tests, integration tests, accessibility testing, manual end-to-end testing, and more.  The team's goal is to reimplement unit tests with React Testing Library, which will be enable support for React 18 while allowing the team to ensure that tests are accurately covering all required test cases and not providing a false sense of security.</br>
-
 **Additional information:**  This work consists of many smaller issues contained within one large epic.  The PatternFly team has recently ramped up on React Testing Library ([documentation captured here](https://github.com/patternfly/patternfly-react/wiki/React-Testing-Library-Basics,-Best-Practices,-and-Guidelines)) and are happy to bring a student up to speed on this technology as well, so no React Testing Library prior experience is required.  Existing completed work serves as templates that students can reference,   Students will work into PatternFly's 3-week sprint schedule.</br>
 **Expected outcomes:** Students will gain understanding of & appreciation for testing code, specifically with React Testing Library.  They will be able to contribute multiple smaller pull requests towards this larger epic, and their work will help ensure the PatternFly code base remains stable moving forward.</br>
 **Language:** React</br>
@@ -398,11 +395,9 @@ PatternFly is used by individual consumers and massive corporate software alike,
 **Mentor:** Austin (primary), Eric</br>
 **Difficulty:** Medium</br>
 
-### PatternFly project #3: Improve PatternFly.org website's accessibility
-
+### PatternFly project #3: Improve PatternFly.org website's accessibility (Multiple Students)
 **Description:**
 PatternFly prides itself on putting a focus on accessibility into every decision - the design system should cater to all users, regardless of their specific abilities.  In addition to the code the team ships and is consumed by users, the documentation website which not only provides general information about PatternFly but also interactive examples and demos should maintain a focus on accessibility.  This project is aimed to resolve many accessibility bugs identified across the PatternFly website, which can be related to specific component HTML/Handlebars or React/Typescript code examples, custom code used specifically to build out the website, or other combinations of issues.  Errors have been pre-identified by the React team, and this project consists of a number of smaller code contributions that can be split up across multiple pull requests.</br>
-
 **Additional information:**  This work consists of many smaller issues contained within one large epic.  Previous accessibility work is not required to be successful.  Existing completed work serves as templates that students can reference.  Students will work into PatternFly's 3-week sprint schedule.</br>
 **Expected outcomes:** Students will gain understanding of & appreciation for accessible web experiences, and learn about automated accessibility testing through aXe, keyboard interaction, and screen readers.  They will be able to contribute multiple smaller pull requests towards this larger epic, and their work will have immediate impacts on PatternFly's website.</br>
 **Language:** React, HTML, Handlebars</br>
@@ -487,6 +482,55 @@ The Community Dashboard is a graphical web based dashboard built in Flask/Python
 **Language:** Flask/Python/Dash </br> 
 **Mentor:** Paul Nagy </br>
  
+## .NET Projects
+### .NET #1: Convert assembly code in block diagram using Graphviz
+**Description:** 
+.NET Runtime is responsible for executing .NET applications. It compiles the user code into machine code. .NET developers validate the compilation correctness by printing the machine code in human-readable assembly code. Assembly code are set of sequential instructions with control flow jumping to various places within the method. Below is a method written in C# followed by the assembly code produced by .NET runtime. </br>
+**Additional information:** https://gist.github.com/kunalspathak/0dae8e63acf4bcadf50b432196a3c45a </br>
+**Language:** C# </br>
+**Skills/Background:** Data structures and Algorithms. Should be open to understand some of the syntax of assembly language. </br> 
+**Mentor:** Kunal Pathak </br>
+**Difficulty:** Easy/Medium </br>
+
+### .NET #2: Search patterns in assembly code
+**Description:** 
+.NET Runtime developers try to optimize the machine code generated for .NET applications. To better focus on impactful scenarios, we often need to scan through the assembly code produced and find patterns that are more common than others. If they find out that a particular pattern has high frequency occurrence and can be optimized further, they prioritize those optimizations. The question is how to generalize such pattern searching? </br>
+**Additional information:** https://gist.github.com/kunalspathak/dbf0dae9c1fe89969834ec436c472be9 </br>
+**Language:** C# </br>
+**Skills/Background:** String-based algorithms, data structures </br> 
+**Mentor:** Kunal Pathak </br>
+**Difficulty:** Medium/Hard </br>
+
+### .NET #3: Excessive consumption of memory in Windows Forms TrackBar
+**Description:** 
+The current implementation of Windows Forms TrackBar control has been around for a long time, and it works well for the majority of users. However, in some situations TrackBar control can lead to excessive consumption of memory (e.g., [dotnet/winforms#329](https://github.com/dotnet/winforms/issues/329)) </br>
+**Additional information:** https://gist.github.com/RussKie/4435913ce446bb834793ddd21dfca411 </br>
+**Expected outcomes:** The goal is to come up with a fix that avoids unnecesary memory allocation. </br>
+**Language:** C# </br>
+**Skills/Background:** Data structures and algorithms. Should be open to understand some of the Win32 messaging system. </br> 
+**Mentor:** Igor Velikorossov </br>
+**Difficulty:** Easy/Medium </br>
+
+### .NET #4: Add ability to check if a .NET tool is installed via dotnet tool
+**Description:** 
+.NET tools are command-line tools that can be installed using the .NET SDK. The existing dotnet tool list command command allows users to list all currently installed .NET tools. However, there is no built-in way to check if a specific tool is installed. This project would enhance the command to enable such functionality. </br>
+**Additional information:** [dotnet/sdk#23549](https://github.com/dotnet/sdk/issues/23549) and https://gist.github.com/elinor-fung/56c3c84a6492165402a92e923bf34b93 </br>
+**Language:** C# </br>
+**Skills/Background:** Testing </br> 
+**Mentor:** .NET Team </br>
+**Difficulty:** Easy </br>
+
+### .NET #5: .NET runtime contribution introduction (Multiple Students)
+**Description:** 
+The .NET runtime has a steep learning curve in most cases. The complexity of building, debugging and validation are experienced by everyone that initially attempts to contribute. Repository owners attempt to identify issues that are technically simple, but still require the full development loop, for first-time contributors to learn the development process with 'easier' issues. The collection of issues below represent a spectrum of difficulty that will challenge your engineering skills and expose you to many parts of .NET runtime development. </br>
+**Additional information:** https://gist.github.com/AaronRobinsonMSFT/7916e8bf52c660b975b520691c0aeeda </br>
+**Expected outcomes:** Success for this task is achieved by choosing 2 - 3 issues from the "Bug fixes" section or one from the "Research" section. </br>
+**Language:** C#/C++ </br>
+**Skills/Background:** C#, C++, debugging, testing, comfortable asking for help </br> 
+**Mentor:** .NET Team </br>
+**Difficulty:** Medium/Hard </br>
+
+
 
 Template: 
 ### project #: Title
