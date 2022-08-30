@@ -217,14 +217,12 @@ As a user I want to be able to discover what rules are defined in a PSD1 file, e
 
 ### PowerShell #19: Add a rule to alert `catch [RuntimeException] { ... }`
 **Description:** 
-See Summary of the new feature </br>
+See Summary of the under additional information. </br>
 **Additional information:** https://github.com/PowerShell/PSScriptAnalyzer/issues/1744 </br>
 **Language:** C#/PowerShell </br>
 **Skills:** Language Syntax </br>
 **Mentor:** PowerShell Team </br>
 **Difficulty:** Medium </br>
-
-- Project 19: 
 
 ### PowerShell #20: Setting `$ErrorView` is flagged as a warning: `PSUseDeclaredVarsMoreThanAssignment`
 **Description:** 
