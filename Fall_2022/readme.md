@@ -281,10 +281,11 @@ In front-office :
 - participants can easily (as user-friendly as possible) enter their availability
 - They must be able to modify their contributions during the publication period, or as long as everyone has not responded, 
 or as the owner/admin hasn't stopped the campain
-- (any ideas are welcome) </br>
-**Language:** Java/Javascript <br>
-**Mentor:** Lutece Team <br>
-**Difficulty:** Level 2/5 <br>
+- (any ideas are welcome) 
+</br>
+**Language:** Java/Javascript </br>
+**Mentor:** Lutece Team </br>
+**Difficulty:** Level 2/5 </br>
 
 ### Lutece #2: [New plugin development] Sheperd
 **Description:** 
@@ -302,7 +303,7 @@ integrated in the site.
 
 A static example is available and can be shown/run, but needs a better integration and an way to edit the scenarios in the back-office 
 and link them to the pages where they need to be accessible. </br>
-**Language:** Java/Javascript <br>
+**Language:** Java/Javascript </br>
 **Mentor:** Lutece Team <br>
 **Difficulty:** Level 2/5 </br>
 
@@ -316,8 +317,6 @@ If possible, add a front office page for users to browse through resources and u
 It would allow people to either use the resources or borrow them on a specific time range. It would be as generic as possible 
 (items, rooms, musical instruments…) and it would be a plus if the user could combine resources (looking for an available trumpet 
 and a rehearsal room between Tuesday and Thursday for half a day). </br>
-**Additional information:** </br>
-**Expected outcomes:** </br>
 **Language:** Java/Javascript </br>
 **Mentor:** Lutece Team </br>
 **Difficulty:** Level: 3/5 for the management system in Back Office - 4/5 with indexation + front office </br>
@@ -330,9 +329,10 @@ Currently, such a module exists linking the resource plugin to the appointment p
 - Pick randomly from the list
 - Choose an item so that it leverages the load of all, or on the contrary the most used so the others don’t get worn out
 - Handle the case if no resources are available (notification to the admin, etc.)
+
 </br>
-**Language:** Java/Javascript <br>
-**Mentor:** Lutece Team <br>
+**Language:** Java/Javascript </br>
+**Mentor:** Lutece Team </br>
 **Difficulty:** Level: 3/5 starting from a fork - 4/5 otherwise </br>
 
 ### Lutece  #5: [New module development] Appointment queuing management system<br>
