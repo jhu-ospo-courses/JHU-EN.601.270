@@ -457,7 +457,7 @@ The Community Dashboard is a graphical web based dashboard built in Flask/Python
 ## .NET Projects
 ### .NET #1: Convert assembly code in block diagram using Graphviz
 **Description:** 
-.NET Runtime is responsible for executing .NET applications. It compiles the user code into machine code. .NET developers validate the compilation correctness by printing the machine code in human-readable assembly code. Assembly code are set of sequential instructions with control flow jumping to various places within the method. Below is a method written in C# followed by the assembly code produced by .NET runtime. </br>
+.NET Runtime is responsible for executing .NET applications. It compiles the user code into machine code. .NET developers validate the compilation correctness by printing the machine code in human-readable assembly code. Assembly code are set of sequential instructions with control flow jumping to various places within the method. In this project, we will convert the assembly code in graphical format using [Graphviz](https://sketchviz.com/graphviz-examples).</br>
 **Additional information:** https://gist.github.com/kunalspathak/0dae8e63acf4bcadf50b432196a3c45a </br>
 **Language:** C# </br>
 **Skills/Background:** Data structures and Algorithms. Should be open to understand some of the syntax of assembly language. </br> 
