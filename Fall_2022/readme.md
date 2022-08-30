@@ -57,7 +57,7 @@ TestCafe should be used as the framework. Existing tests which have mocked inter
 
 ## Microsoft Powershell Projects
 
-### Context : PowerShell
+### PowerShell Language Projects
 #### Description : PowerShell is a task automation and configuration management program from Microsoft, consisting of a command-line shell and the associated scripting language. 
 
 ### PowerShell #1: Feature Request - ConvertTo-Html should auto create hyperlinks
@@ -118,7 +118,7 @@ The failure of this api gives a poor experience to the user. We should at least 
 **Mentor:** PowerShell Team </br>
 **Difficulty:** Hard </br>
 
-### Context : PowerShellGet
+### PowerShellGet Projects
 #### Description: PowerShellGet is a module with commands for discovering, installing, updating and publishing PowerShell artifacts like Modules, DSC Resources, Role Capabilities, and Scripts.
 
 ### PowerShell #8: Add -RequiredResource(File) for Save-Module
@@ -201,7 +201,7 @@ As a script writer I want to be able to use `New-PSScriptFileInfo` to generate a
 **Mentor:** PowerShell Team </br>
 **Difficulty:** Easy </br>
 
-### Context : Script Analyzer
+### Script Analyzer Projects
 #### Description: PSScriptAnalyzer is a static code checker for PowerShell modules and scripts. PSScriptAnalyzer checks the quality of PowerShell code by running a set of rules.
 
 ### PowerShell #18: Add Get-ScriptAnalyzerSetting cmdlet to generalize a way of displaying collections of rules
@@ -231,7 +231,7 @@ The rule needs to be altered to exclude this variable as something to warn about
 **Mentor:** PowerShell Team </br>
 **Difficulty:** Easy </br>
 
-### Context: Secret Management
+### Secret Management Projects
 #### Description: PowerShell SecretManagement module provides a convenient way for a user to store and retrieve secrets. The secrets are stored in SecretManagement extension vaults. An extension vault is a PowerShell module that has been registered to SecretManagement, and exports five module functions required by SecretManagement. An extension vault can store secrets locally or remotely. Extension vaults are registered to the current logged in user context, and are available only to that user.
 
 ### PowerShell #21: [Feature] Provide the version of Extension in Get-SecretVault
