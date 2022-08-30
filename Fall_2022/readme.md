@@ -435,9 +435,10 @@ Develop a web-based in-memory private text sharing application. Once users conne
 **Description:** 
 Develop a chat client using a simple custom protocol running in Enarx. The project can be done in a programming language of your choice and a reference implementation in Rust along with a common Web interface will be provided.
 One of the main case studies for Confidential Computing is the Signal messaging application, which offers end-to-end encryption using Intel SGX. A chat app in Enarx would be cross-platform. </br>
-* Chat app in Rust
-* Chat app in C
-* Chat app in C++ </br>
+* Chat app in Rust (Student #1)
+* Chat app in C (Student #2)
+* Chat app in C++ (Student #3)
+
 **MVP:** Terminal chat client </br>
 **Stretch goal:** Connect the client to a provided Web Interface </br>
 **Language:** </br>
