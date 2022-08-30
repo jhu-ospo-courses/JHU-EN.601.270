@@ -56,7 +56,209 @@ TestCafe should be used as the framework. Existing tests which have mocked inter
 
 
 ## Microsoft Powershell Projects
-### Microsoft Powershell #1: ...
+
+### Context : PowerShell
+#### Description : PowerShell is a task automation and configuration management program from Microsoft, consisting of a command-line shell and the associated scripting language. 
+
+### PowerShell #1: Feature Request - ConvertTo-Html should auto create hyperlinks
+**Description:** 
+There are many times where I've had to go manually craft an `<a href="....` as a new property where the existing string property already had a valid URL in it, just so ConvertTo-Html would generate a hyperlink.  </br>
+**Additional information:** https://github.com/PowerShell/PowerShell/issues/11458 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### PowerShell #2: $PSModuleAutoLoadingPreference accepts bogus values
+**Description:** 
+[About Preference Variables](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-7) and [PSModuleAutoLoadingPreference Enum](https://docs.microsoft.com/en-us/dotnet/api/system.management.automation.psmoduleautoloadingpreference?view=pscore-6.2.0) suggest that `$PSModuleAutoLoadingPreference` should be strongly-typed like, for example, `$ErrorActionPreference`.  It does not seem to be strongly-typed, however, and accepts bogus values. </br>
+**Additional information:** https://github.com/PowerShell/PowerShell/issues/12037 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
+
+### PowerShell #3: Add SuppressAnalyzer type alias
+**Description:** 
+As a script author, I want to _shorten_ the repetitive line required to suppress ScriptAnalyzer rules. </br>
+**Additional information:** https://github.com/PowerShell/PowerShell/issues/14784 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
+
+### PowerShell #4: Output formatting for [System.Reflection.Assembly] instances should show relevant information, not properties only relevant in Windows PowerShell
+**Description:** 
+The default output formatting for `[System.Reflection.Assembly]` instances shows information that only applies to _Windows PowerShell_ (.NET Framework): </br>
+**Additional information:** https://github.com/PowerShell/PowerShell/issues/16020 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
+
+### PowerShell #5: Remoting over SSH: Multiple issues with the SSHConnection parameter
+**Description:** 
+The parameter should recognize `~` syntax and look in the users home directory. </br>
+**Additional information:** https://github.com/PowerShell/PowerShell/issues/16684 </br>
+**Language:** C#/PowerShell </br>
+**Skills:** Networking </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
+
+### PowerShell #6: Add YAML Frontmattter support to ConvertFrom-Markdown
+**Description:** 
+As a contributor to a Markdown wiki repo, I would like to be able to (cleanly) parse [YAML frontmatter](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block) blocks in PowerShell via `ConvertFrom-Markdown`. </br>
+**Additional information:** https://github.com/PowerShell/PowerShell/issues/16857 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
+
+### PowerShell #7: Getting the SecurityDescriptor from the filesystem provider produces an error on Linux
+**Description:** 
+The failure of this api gives a poor experience to the user. We should at least produce no error. </br>
+**Additional information:** https://github.com/PowerShell/PowerShell/issues/1770 </br>
+**Language:** C#/PowerShell </br>
+**Skills:** NativeAPI, Security </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Hard </br>
+
+### Context : PowerShellGet
+#### Description: PowerShellGet is a module with commands for discovering, installing, updating and publishing PowerShell artifacts like Modules, DSC Resources, Role Capabilities, and Scripts.
+
+### PowerShell #8: Add -RequiredResource(File) for Save-Module
+**Description:** 
+There are many circumstances where you want to install modules to somewhere other than the powershell modules folder, for instance if creating the equivalent of a python "virtual environment" for CI builds, or other circumstances where you want a module but don't want to deploy it to the main path. </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/143 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
+
+### PowerShell #9: Create `New-RequiredResourceFile` cmdlet
+**Description:** 
+This cmdlet will create a template file. If the switch -AsPSD1 is used it will create a psd1 file, otherwise it will default to JSON. </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/587 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Hard </br>
+
+### PowerShell #10: Uninstall-PSResource should show progress info
+**Description:** 
+Particularly where there are dependencies, it can take awhile and the user doesn't know what's happening </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/597 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
+
+### PowerShell #11: If no package is uninstalled the cmdlet should emit an error
+**Description:** 
+If no package is uninstalled during a run of `Uninstall-PSResource` the cmdlet should emit a warning so that the user knows no action was completed. The warning can suggest users run `Get-PSResource`. </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/598 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### PowerShell #12: Find-PSResource does not accept pipeline input
+**Description:** 
+Add support for pipeling input </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/666 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### PowerShell #13: Uninstall-PSResource should have a PassThru parameter
+**Description:** 
+Uninstall-PSResource should have a PassThru parameter for the caller to get the list of resources uninstalled. </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/667 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### PowerShell #14: Add Set-PSResourceRepository Name parameter wildcard support
+**Description:** 
+I would like to be able to pass wildcard characters to `Set-PSResourceRepository` name parameter. </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/671 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### PowerShell #15: Publish-PSResource add a PassThru parameter
+**Description:** 
+As a user I would like `Publish-PSResource` to have a `PassThru` parameter to output a `PSResourceInfo` object with all associated metadata. </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/718 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### PowerShell #16: Update-PSResource with specific resource writes warning and not error
+**Description:** 
+Currently Update-PSResource Microsoft.PowerShell.SecretStore with a specific resource name and the resource is not installed it will write a warning. This should be an error since the user specifically told the cmdlet to update an individual resource and it was unable to do so. </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/729 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### PowerShell #17: Add PassThru parameter to New-PSScriptFileInfo
+**Description:** 
+As a script writer I want to be able to use `New-PSScriptFileInfo` to generate a PSScriptInfo comment block, after I have already created a script, without being required to create a temporary file to satisfy the mandatory `FilePath` parameter. </br>
+**Additional information:** https://github.com/PowerShell/PowerShellGet/issues/737 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### Context : Script Analyzer
+#### Description: PSScriptAnalyzer is a static code checker for PowerShell modules and scripts. PSScriptAnalyzer checks the quality of PowerShell code by running a set of rules.
+
+### PowerShell #18: Add Get-ScriptAnalyzerSetting cmdlet to generalize a way of displaying collections of rules
+**Description:** 
+As a user I want to be able to discover what rules are defined in a PSD1 file, especially those that are included with PSScriptAnalyzer. I would also like to point to any PSD1 file containing rules and get the same output. </br>
+**Additional information:** https://github.com/PowerShell/PSScriptAnalyzer/issues/1740 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
+
+### PowerShell #19: Add a rule to alert `catch [RuntimeException] { ... }`
+**Description:** 
+See Summary of the new feature </br>
+**Additional information:** https://github.com/PowerShell/PSScriptAnalyzer/issues/1744 </br>
+**Language:** C#/PowerShell </br>
+**Skills:** Language Syntax </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
+
+- Project 19: 
+
+### PowerShell #20: Setting `$ErrorView` is flagged as a warning: `PSUseDeclaredVarsMoreThanAssignment`
+**Description:** 
+The rule needs to be altered to exclude this variable as something to warn about </br>
+**Additional information:** https://github.com/PowerShell/PSScriptAnalyzer/issues/1749 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### Context: Secret Management
+#### Description: PowerShell SecretManagement module provides a convenient way for a user to store and retrieve secrets. The secrets are stored in SecretManagement extension vaults. An extension vault is a PowerShell module that has been registered to SecretManagement, and exports five module functions required by SecretManagement. An extension vault can store secrets locally or remotely. Extension vaults are registered to the current logged in user context, and are available only to that user.
+
+### PowerShell #21: [Feature] Provide the version of Extension in Get-SecretVault
+**Description:** 
+Allow `Get-SecretVault` to include a property for the version of the extension currently loaded to help users and extension developers ensure they have the expected extension version loaded. </br>
+**Additional information:** https://github.com/PowerShell/SecretManagement/issues/171 </br>
+**Language:** C#/PowerShell </br>
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### PowerShell #22: Verbose output for Get-Secret is incorrect
+**Description:** 
+If a secret does not exist, verbose output still indicates it was able to be retrieved. </br>
+**Additional information:** https://github.com/PowerShell/SecretManagement/issues/200 </br>
+**Language:** C#/PowerShell </br>
+**Skills:** Security
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Easy </br>
+
+### PowerShell #23: Request - Lock-SecretStore cmdlet
+**Description:** 
+Create a new cmdlet which enables you to lock access to the secret store </br>
+**Additional information:** https://github.com/PowerShell/SecretStore/issues/82 </br>
+**Language:** C#/PowerShell </br>
+**Skills:** Security
+**Mentor:** PowerShell Team </br>
+**Difficulty:** Medium </br>
 
 ## Lutece Projects
 ### Lutece project #1
