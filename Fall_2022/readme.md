@@ -281,8 +281,7 @@ In front-office :
 - participants can easily (as user-friendly as possible) enter their availability
 - They must be able to modify their contributions during the publication period, or as long as everyone has not responded, 
 or as the owner/admin hasn't stopped the campain
-- (any ideas are welcome)<br>
-</br>
+- (any ideas are welcome) </br>
 **Language:** Java/Javascript <br>
 **Mentor:** Lutece Team <br>
 **Difficulty:** Level 2/5 <br>
@@ -302,8 +301,7 @@ We would start on the Lutece core project, to help the understanding of RBAC for
 integrated in the site.
 
 A static example is available and can be shown/run, but needs a better integration and an way to edit the scenarios in the back-office 
-and link them to the pages where they need to be accessible.<br>
-</br>
+and link them to the pages where they need to be accessible. </br>
 **Language:** Java/Javascript <br>
 **Mentor:** Lutece Team <br>
 **Difficulty:** Level 2/5 </br>
@@ -317,23 +315,21 @@ If possible, add a front office page for users to browse through resources and u
 
 It would allow people to either use the resources or borrow them on a specific time range. It would be as generic as possible 
 (items, rooms, musical instruments…) and it would be a plus if the user could combine resources (looking for an available trumpet 
-and a rehearsal room between Tuesday and Thursday for half a day).</br>
-
+and a rehearsal room between Tuesday and Thursday for half a day). </br>
 **Additional information:** </br>
 **Expected outcomes:** </br>
-**Language:** Java/Javascript <br>
-**Mentor:** Lutece Team <br>
+**Language:** Java/Javascript </br>
+**Mentor:** Lutece Team </br>
 **Difficulty:** Level: 3/5 for the management system in Back Office - 4/5 with indexation + front office </br>
 
-### Lutece #4: [Plugin contribution] Resource management system module to use within the appointment plugin.<br>
+### Lutece #4: [Plugin contribution] Resource management system module to use within the appointment plugin.
 **Description:** 
 A Lutece module is considered as a plugins plugin. Plugins bring features to Lutece websites. Modules connect plugins. For example, the appointment plugin features all that is needed to set agendas, availabilities and so on. The workflow plugin brings automation and configurable actions when a resource (request, appointment…) reaches new states. A module that connects the appointment plugin with the workflow plugin (and called module-appointment-workflow) brings all the appointment specificities into the workflow so that we can use business-related functions when appointments switch states.
 
 Currently, such a module exists linking the resource plugin to the appointment plugin. It helps to associate a resource (equipment, staff…) with an appointment, but it can only be done manually : an admin choses a resource from a list and assigns it to the appointment so it is not longer available in the timeslot. The module needs to be upgraded so that this action can be done automatically, according to a few settings :
-
 - Pick randomly from the list
 - Choose an item so that it leverages the load of all, or on the contrary the most used so the others don’t get worn out
-- Handle the case if no resources are available (notification to the admin, etc.)<br>
+- Handle the case if no resources are available (notification to the admin, etc.)
 </br>
 **Language:** Java/Javascript <br>
 **Mentor:** Lutece Team <br>
@@ -346,9 +342,9 @@ availabilities for more than 400 services, some of them have very high demand. T
 and users hardly find any. In a first version, we would love to provide them the possibility to register to a list that 
 would be notified every time there are new availabilities – on a date range, or time range - due to cancelations or new 
 timeslots added (any ideas to be as user-friendly as possible are welcome).</br>
-<br>
-**Language:** Java/Javascript <br>
-**Mentor:** Lutece Team <br>
+
+**Language:** Java/Javascript </br>
+**Mentor:** Lutece Team </br>
 **Difficulty:** Level: 5/5 </br>
 <br>
 
