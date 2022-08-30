@@ -327,7 +327,7 @@ A Lutece module is considered as a plugins plugin. Plugins bring features to Lut
 Currently, such a module exists linking the resource plugin to the appointment plugin. It helps to associate a resource (equipment, staff…) with an appointment, but it can only be done manually : an admin choses a resource from a list and assigns it to the appointment so it is not longer available in the timeslot. The module needs to be upgraded so that this action can be done automatically, according to a few settings :
 - Pick randomly from the list
 - Choose an item so that it leverages the load of all, or on the contrary the most used so the others don’t get worn out
-- Handle the case if no resources are available (notification to the admin, etc.)</br>
+- Handle the case if no resources are available (notification to the admin, etc.) </br>
 **Language:** Java/Javascript </br>
 **Mentor:** Lutece Team </br>
 **Difficulty:** Level: 3/5 starting from a fork - 4/5 otherwise </br>
