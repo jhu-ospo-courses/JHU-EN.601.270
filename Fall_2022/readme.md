@@ -531,8 +531,8 @@ The .NET runtime has a steep learning curve in most cases. The complexity of bui
 **Difficulty:** Medium/Hard </br>
 
 
-
-Template: 
+<!---
+Template for adding new projects
 ### project #: Title
 **Description:** 
 stuff </br>
@@ -542,3 +542,4 @@ stuff </br>
 **Skills/Background:** </br> 
 **Mentor:** </br>
 **Difficulty:** Easy/Medium/Hard </br>
+--->
