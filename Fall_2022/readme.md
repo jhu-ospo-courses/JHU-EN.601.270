@@ -264,8 +264,7 @@ Create a new cmdlet which enables you to lock access to the secret store </br>
 **Difficulty:** Medium </br>
 
 ## Lutece Projects
-### Lutece project #1
-### [New plugin development] Similar Availabilities
+### Lutece #1: New plugin development] Similar Availabilities
 **Description:** 
 A frequent request we have is for the development of a functionality that allows to find common availabilities in order to 
 arrange a meeting time. In a similar way to doodle, the application must allow in the back office to set :
@@ -283,17 +282,12 @@ In front-office :
 - They must be able to modify their contributions during the publication period, or as long as everyone has not responded, 
 or as the owner/admin hasn't stopped the campain
 - (any ideas are welcome)<br>
-
 </br>
-Additional information:<br>
-Expected outcomes: <br>
-Language: <br>
-Skills/Background: <br>
-Mentor: <br>
-Difficulty: Level 2/5 <br>
+**Language:** Java/Javascript <br>
+**Mentor:** Lutece Team <br>
+**Difficulty:** Level 2/5 <br>
 
-### Lutece project #2 <br> 
-### Title: [New plugin development] Sheperd <br>
+### Lutece #2: [New plugin development] Sheperd
 **Description:** 
 To improve the distribution and use of lutece in a broad way, we are developing a set of functionalities that will allow to quickly 
 learn how to use the business bricks.
@@ -310,16 +304,11 @@ integrated in the site.
 A static example is available and can be shown/run, but needs a better integration and an way to edit the scenarios in the back-office 
 and link them to the pages where they need to be accessible.<br>
 </br>
-**Additional information:** 
-</br>
-**Expected outcomes:** </br>
-**Language:** </br>
-**Skills/Background:** </br> 
-**Mentor:** </br>
+**Language:** Java/Javascript <br>
+**Mentor:** Lutece Team <br>
 **Difficulty:** Level 2/5 </br>
 
-### Lutece project #3<br>
-### Title: [New plugin development] New resource management system<br>
+### Lutece #3: [New plugin development] New resource management system<br>
 **Description:** 
 A new plugin that manages items/resources would be very useful to connect to other plugins.
 It would define ressource types along with parameters (duration, pre-reqs, documents – editable fields 
@@ -332,13 +321,11 @@ and a rehearsal room between Tuesday and Thursday for half a day).</br>
 
 **Additional information:** </br>
 **Expected outcomes:** </br>
-**Language:** </br>
-**Skills/Background:** </br> 
-**Mentor:** </br>
+**Language:** Java/Javascript <br>
+**Mentor:** Lutece Team <br>
 **Difficulty:** Level: 3/5 for the management system in Back Office - 4/5 with indexation + front office </br>
 
-### Lutece project #4<br>
-### Title: [Plugin contribution] Resource management system module to use within the appointment plugin.<br>
+### Lutece #4: [Plugin contribution] Resource management system module to use within the appointment plugin.<br>
 **Description:** 
 A Lutece module is considered as a plugins plugin. Plugins bring features to Lutece websites. Modules connect plugins. For example, the appointment plugin features all that is needed to set agendas, availabilities and so on. The workflow plugin brings automation and configurable actions when a resource (request, appointment…) reaches new states. A module that connects the appointment plugin with the workflow plugin (and called module-appointment-workflow) brings all the appointment specificities into the workflow so that we can use business-related functions when appointments switch states.
 
@@ -346,18 +333,13 @@ Currently, such a module exists linking the resource plugin to the appointment p
 
 - Pick randomly from the list
 - Choose an item so that it leverages the load of all, or on the contrary the most used so the others don’t get worn out
--  …
-Handle the case if no resources are available (notification to the admin, etc.)<br>
-
-**Additional information:** </br>
-**Expected outcomes:** </br>
-**Language:** </br>
-**Skills/Background:** </br> 
-**Mentor:** </br>
+- Handle the case if no resources are available (notification to the admin, etc.)<br>
+</br>
+**Language:** Java/Javascript <br>
+**Mentor:** Lutece Team <br>
 **Difficulty:** Level: 3/5 starting from a fork - 4/5 otherwise </br>
 
-### Lutece project #5<br>
-### Title: [New module development] Appointment queuing management system<br>
+### Lutece  #5: [New module development] Appointment queuing management system<br>
 **Description:** 
 This feature is highly requested by business units across the City. Since the appointment plugin is used to display 
 availabilities for more than 400 services, some of them have very high demand. That means there are a few availabilities 
@@ -365,11 +347,8 @@ and users hardly find any. In a first version, we would love to provide them the
 would be notified every time there are new availabilities – on a date range, or time range - due to cancelations or new 
 timeslots added (any ideas to be as user-friendly as possible are welcome).</br>
 <br>
-**Additional information:** </br>
-**Expected outcomes:** </br>
-**Language:** </br>
-**Skills/Background:** </br> 
-**Mentor:** </br>
+**Language:** Java/Javascript <br>
+**Mentor:** Lutece Team <br>
 **Difficulty:** Level: 5/5 </br>
 <br>
 
