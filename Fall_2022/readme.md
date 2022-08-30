@@ -10,7 +10,7 @@ Students will choose a project from the list below and apply for it by sending e
 3. [Lutece Student Projects](https://github.com/jhu-ospo-courses/JHU-EN.601.270/tree/main/Fall_2022#lutece-projects): [Lutece](https://lutece-platform.github.io/) is a powerful Java™ based Content Management Framework developed by the [City of Paris](https://lutece.paris.fr/lutece/), and adopted in many places (including the St. Francis Neighborhood Center in Baltimore).
 4. [PatternFly Student Projects](#patternfly-projects): [PatternFly](https://www.patternfly.org) is an open source design system built to drive consistency and unify teams, and is used broadly by many open source products from [Red Hat](https://www.redhat.com). From documentation and components to code examples and tutorials, PatternFly is a place where design and development can thrive. We’re on a mission to help teams build consistent, accessible, and scalable enterprise product experiences—the open source way.
 5. [enarx Student Projects](#enarx-projects): The [enarx project](https://enarx.dev/) is an open source framework for running applications in TEEs (Trusted Execution Environments). It's part of the Confidential Computing Consortium from the Linux Foundation. It provides a WebAssembly runtime which uses TEEs, allowing developers to deploy secure applications using a variety of languages, such as: Rust, C/C++, C#, Go, and more. It is CPU-architecture independent, letting developers deploy the same application code transparently across multiple targets and architectures
-
+6. [OHDSI Student Projects](#OHDSI-projects): [Observational Health Data Sciences and Informatics](https://www.ohdsi.org/) (OHDSI) is multi-stakeholder, interdisciplinary, open-science collaborative to bring out the value of health data through large-scale analytics.  OHDSI’s mission is to improve health by empowering a community to collaboratively generate the evidence that promotes better health decisions and better care.  OHDSI collaborates in many aspects of the journey from data to evidence, including open community data standards, open-source software development, open methodological research, and open network clinical research.   
 
 ## PASS Projects
 ### PASS #1: Port manuscript download web service from Go to Java. <br>
@@ -446,6 +446,47 @@ One of the main case studies for Confidential Computing is the Signal messaging 
 **Mentor:** Richard, Roman </br>
 **Difficulty:** Medium/Hard </br>
 
+## OHDSI projects
+The heart of OHDSI is about using a standard based common data model to create computable and reproducible analysis on electronic health data.  Electronic health data has privacy protections and restrictions on data sharing.  OHDSI has developed methods to convert local proprietary EMR data into a common format thereby allowing to share code (analysis) between organizations and aggregating only result data.  
+
+The OHDSI community has grown since its inception in 2014 to include >3000 researchers in >70 countries around the world and has created a research network of 810 million patient records across 300+ sites in a common data format.  There are hundreds of OHDSI affiliated projects on github using the common data model.  As a github organization, OHDSI currently hosts over 200 repositories with 13 million lines of code written over the past 10 years. 
+
+### OHDSI #1: Perseus
+**Description:** 
+Perseus is a web based rewrite of the main data transformation tools into the OMOP data model.  This includes Rabbit in the Hat, White Rabbit, and Usagi.  The system has been rewritten in Flask/Python and we would like to develop a Swagger documentation of the API. </br>
+**Additional information:** https://github.com/OHDSI/Perseus </br>
+**Language:** Flask/Python </br>
+**Mentor:** Lee Evans </br>
+
+### OHDSI #2: Atlas/WebAPI 
+**Description:** 
+ATLAS is the web based front end analysis system that allows research to perform research on the OMOP data science.  It is constructed with Javascript and the Knockout library.  This package is used throughout the world and we would like to improve its stability by developing testing methods for this package. </br>
+**Additional information:** https://github.com/OHDSI/Atlas </br>
+**Language:** Javascript </br> 
+**Mentor:** Chris Knoll </br>
+
+### OHDSI #3: RohdsiWebAPI 
+**Description:** 
+All the statistical packages to perform research are in R packages as part of the HADES system.  ROHDSIWebAPI Is a package for interfacing with a WebAPI instance. </br>
+**Additional information:** https://github.com/OHDSI/ROhdsiWebApi </br>
+**Language:** R </br>
+**Mentor:** Adam Black </br>
+
+### OHDSI #4: DataQualityDashboard 
+**Description:** 
+The DataQualityDashboard is a comprehensive data quality testing and reporting framework that performs over 3,000 DQ tests on an observational data base in the OMOP format.  The DQD is an R Shiny web application.  We are looking to implement Github actions to automate testing methodologies.   </br>
+**Additional information:** https://github.com/OHDSI/DataQualityDashboard </br>
+**Language:** R </br>
+**Skills/Background:** Github Actions</br> 
+**Mentor:** Jamie Gilbert </br>
+
+### OHDSI #5: Community Dashboard 
+**Description:** 
+The Community Dashboard is a graphical web based dashboard built in Flask/Python/Dash. Behind the dashboard is an API harvester that pulls data from pubmed, youtube, github, and moodle.  We are looking to implement unit level testing on the application. </br>
+**Additional information:** https://github.com/OHDSI/CommunityDashboard </br>
+**Language:** Flask/Python/Dash </br> 
+**Mentor:** Paul Nagy </br>
+ 
 
 Template: 
 ### project #: Title
