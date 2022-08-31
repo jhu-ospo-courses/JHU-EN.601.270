@@ -15,7 +15,7 @@ Students will choose a project from the list below and apply for it by sending e
 
 
 ## PASS Projects
-### PASS #1: Port manuscript download web service from Go to Java. <br>
+### PASS #1: Port manuscript download web service from Go to Java <br>
 **Description:** 
 This is a small service with a REST API written in Go. It should be completely rewritten as a Java Maven module such that 
 the Java version can be a drop in replacement. There also must be unit testing, integration testing, and a Docker container to run the service. </br>
@@ -26,7 +26,7 @@ the Java version can be a drop in replacement. There also must be unit testing, 
 **Mentor:** PASS team </br>
 **Difficulty:** Easy </br>
 <br>
-### PASS #2: Port metadata schema web service from Go to Java. <br>
+### PASS #2: Port metadata schema web service from Go to Java <br>
 **Description:** 
 This is a small service with a REST API written in Go. It should be completely rewritten as a Java Maven module such that the Java version can be a drop in replacement. There also must be unit testing, integration testing, and a Docker container to run the service. </br>
 </br>
@@ -36,7 +36,7 @@ This is a small service with a REST API written in Go. It should be completely r
 **Mentor:** PASS team </br>
 **Difficulty:** Medium </br>
 <br>
-### PASS #3: Port policy web service from Go to Java. <br>
+### PASS #3: Port policy web service from Go to Java <br>
 **Description:** 
 This is a small service with a REST API written in Go. It should be completely rewritten as a Java Maven module such that the Java version can be a drop in replacement. There also must be unit testing, integration testing, and a Docker container to run the service. </br>
 </br>
@@ -46,7 +46,7 @@ This is a small service with a REST API written in Go. It should be completely r
 **Mentor:** PASS team </br>
 **Difficulty:** Medium </br>
 <br>
-### PASS #4: Create an acceptance testing module for the UI and import existing mocked tests. <br>
+### PASS #4: Create an acceptance testing module for the UI and import existing mocked tests <br>
 **Description:** 
 TestCafe should be used as the framework. Existing tests which have mocked interactions will be used as the initial set of acceptance tests. </br>
 </br>
@@ -262,7 +262,7 @@ Create a new cmdlet which enables you to lock access to the secret store </br>
 **Difficulty:** Medium </br>
 
 ## Lutece Projects
-### Lutece #1: New plugin development] Similar Availabilities
+### Lutece #1: [New plugin development] Similar Availabilities
 **Description:** 
 A frequent request we have is for the development of a functionality that allows to find common availabilities in order to 
 arrange a meeting time. In a similar way to doodle, the application must allow in the back office to set :
@@ -344,7 +344,7 @@ timeslots added (any ideas to be as user-friendly as possible are welcome).</br>
 **Difficulty:** Level: 5/5 </br>
 
 ## PatternFly projects
-### PatternFly project #1: Convert interactive component examples from Javascript to Typescript (Multiple Students)
+### PatternFly #1: Convert interactive component examples from Javascript to Typescript (Multiple Students)
 **Description:**
 PatternFly examples provide interactive working code snippets which illustrate different use cases to consumers and allow them to try out various interactions.  These examples were originally written in Javascript + React, but are being converted to Typescript + React to provide increased guardrails around their usage and better match the current technologies of our consumers.  Each PatternFly component typically contains several exaamples, so this project allows a student to ramp up in complexity while offering a quick path to making pull request contributions and see their work reflected on our live website.
 </br>
@@ -355,7 +355,7 @@ PatternFly examples provide interactive working code snippets which illustrate d
 **Mentors:** Austin & Eric</br>
 **Difficulty:** Medium </br>
 
-### PatternFly project #2: Update component unit tests to meet new standards with React Testing Library (Multiple Students)
+### PatternFly #2: Update component unit tests to meet new standards with React Testing Library (Multiple Students)
 **Description:**
 PatternFly is used by individual consumers and massive corporate software alike, and as such must maintain a focus on consistency and reliability even while releasing every three weeks.  To this end the PatternFly team implements several different methods for testing code to ensure no breaking changes are introduced - unit tests, snapshot tests, integration tests, accessibility testing, manual end-to-end testing, and more.  The team's goal is to reimplement unit tests with React Testing Library, which will be enable support for React 18 while allowing the team to ensure that tests are accurately covering all required test cases and not providing a false sense of security.</br>
 **Additional information:**  This work consists of many smaller issues contained within one large epic.  The PatternFly team has recently ramped up on React Testing Library ([documentation captured here](https://github.com/patternfly/patternfly-react/wiki/React-Testing-Library-Basics,-Best-Practices,-and-Guidelines)) and are happy to bring a student up to speed on this technology as well, so no React Testing Library prior experience is required.  Existing completed work serves as templates that students can reference,   Students will work into PatternFly's 3-week sprint schedule.</br>
@@ -365,7 +365,7 @@ PatternFly is used by individual consumers and massive corporate software alike,
 **Mentor:** Austin (primary), Eric</br>
 **Difficulty:** Medium</br>
 
-### PatternFly project #3: Improve PatternFly.org website's accessibility (Multiple Students)
+### PatternFly #3: Improve PatternFly.org website's accessibility (Multiple Students)
 **Description:**
 PatternFly prides itself on putting a focus on accessibility into every decision - the design system should cater to all users, regardless of their specific abilities.  In addition to the code the team ships and is consumed by users, the documentation website which not only provides general information about PatternFly but also interactive examples and demos should maintain a focus on accessibility.  This project is aimed to resolve many accessibility bugs identified across the PatternFly website, which can be related to specific component HTML/Handlebars or React/Typescript code examples, custom code used specifically to build out the website, or other combinations of issues.  Errors have been pre-identified by the React team, and this project consists of a number of smaller code contributions that can be split up across multiple pull requests.</br>
 **Additional information:**  This work consists of many smaller issues contained within one large epic.  Previous accessibility work is not required to be successful.  Existing completed work serves as templates that students can reference.  Students will work into PatternFly's 3-week sprint schedule.</br>
