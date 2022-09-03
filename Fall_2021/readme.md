@@ -8,7 +8,7 @@ Each was a presentation with pointers to relevant textbook readings, presented i
 
 L1: Introduction to course, syllabus, student project matching! The Game as an introduction to software engineering, building Apache httpd as a simple example of what liberally licensed component software in a well-run project provides.  
 L2: The Economics of Open Source Software: The basic engineering economics discussion of build vs. buy vs. borrow & share when you add open source projects. Thinking about software value. The different economics inherent in open source project consumption versus production.  
-L3: Software Engineering Models, Life Cycles, and Economics 
+L3: Software Engineering Models, Life Cycles, and Economics  
 L4: An Introduction to Open Source Project Practices & the Trusting Trust article discussion  
 L5: Digging Deeper on Open Source Project Practices  
 L6: Evaluating Open Source Projects & Silver Bullets Discussions. This included a small homework assignment where each student had to build a major open source project from scratch, and use the framework developed in the past few lectures to analyze the basic health of the project community. They then reported out on their experience, and we discussed it in class. They had a choice of building Perl, Python, or Node.js.  
@@ -21,10 +21,10 @@ L12: Social & Political Infrastructure within an open source project & the IETF 
 L13: Company Involvement in open source projects. This section is something they would likely encounter in a work environment. It is well covered in the text and I would modify this to a reading assignment in future.  
 L14: Packaging and Releases: The introduction to thinking about the role of release management in building software at scale and the idea that release management is a constant.  
 L15: Communications Culture in open source software projects.  
-L16: Managing Participants + Test Prep 
+L16: Managing Participants + Test Prep  
 L17: Introduction to Intellectual Property for Engineers  
-L18: Copyrights, Software, & OSS Licenses 
-L19: Trademarks 
+L18: Copyrights, Software, & OSS Licenses  
+L19: Trademarks  
 L20: Patents  
 L21: Why your open source software startup will fail … This was the “so you want to start a company talk” to introduce students to how to think about a software company. It was done more as a fun talk towards the end of the course.  
 L22: Software Transmitted Disease (aka Dependencies): The software supply chain continues to get more complex. This lecture took students down the rabbit hole.  
