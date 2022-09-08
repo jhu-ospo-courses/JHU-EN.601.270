@@ -5,6 +5,7 @@ In Lecture 3 we took a look at activities that maintainers of OSI-licensed softw
 developers, and contributors to the project. 
 In the first Lecture, we built the Apache webserver from source, following along from a 'found' web page in the project's website. 
 In this lab, we will use the activities list to test build another project (from a list), evaluating the projects (and the activity list). 
+(Docker makes for a contained environment on a Mac or Windows laptop. [Instructions for setting up Docker are here.](https://github.com/jhu-ospo-courses/JHU-EN.601.270/blob/main/Fall_2022/Docker_Setup.md#setting-up-for-labs))
 
 ## Objectives
 * Evaluate the experience of downloading and **building** another open source licensed software project from a short list of projects. 
