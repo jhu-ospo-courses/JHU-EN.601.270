@@ -510,12 +510,13 @@ ATLAS is the web based front end analysis system that allows research to perform
 **Language:** Javascript </br> 
 **Mentor:** Chris Knoll </br>
 
-### OHDSI #3: RohdsiWebAPI 
+### OHDSI #3: Prepare and release RohdsiWebAPI 
 **Description:** 
-All the statistical packages to perform research are in R packages as part of the HADES system.  ROHDSIWebAPI Is a package for interfacing with a WebAPI instance. </br>
+All the statistical packages to perform research are in R packages as part of the HADES system.  ROHDSIWebAPI is a package for interfacing with a WebAPI instance. The goal of this project will be to create a new release of the ROhdsiWebApi package. It will involve reviewing and merging pull requests, running unit tests, running reverse dependency tests, and releasing the package. Students will learn about the release process used in the OHDSI open source community.</br>
 **Additional information:** https://github.com/OHDSI/ROhdsiWebApi </br>
 **Language:** R </br>
 **Mentor:** Adam Black </br>
+**Difficulty:** Easy/Medium </br>
 
 ### OHDSI #4: DataQualityDashboard 
 **Description:** 
@@ -531,6 +532,14 @@ The Community Dashboard is a graphical web based dashboard built in Flask/Python
 **Additional information:** https://github.com/OHDSI/CommunityDashboard </br>
 **Language:** Flask/Python/Dash </br> 
 **Mentor:** Paul Nagy </br>
+
+### OHDSI #6: Create a parser for OHDSI-SQL dialect
+**Description:** 
+OHDSI uses a custom SQL dialect to interact with multiple database systems. This dialect, known as OHDSI-SQL is translated into various SQL dialects (e.g. postgres, SQL Server, Big Query, etc) by the [SqlRender](https://ohdsi.github.io/SqlRender/) package. This project will be to use [javacc](https://javacc.github.io/javacc/) to create a parser for OHDSI-SQL. The student will learn about javacc and creating parsers using Java. The student will need Java experience and need to have an interest in learning about compilers.</br>
+**Additional information:** https://ohdsi.github.io/SqlRender/, https://javacc.github.io/javacc/ </br>
+**Language:** Java </br>
+**Mentor:** Adam Black </br>
+**Difficulty:** Medium/Hard </br>
  
 ## .NET Projects
 ### .NET #1: Convert assembly code in block diagram using Graphviz
