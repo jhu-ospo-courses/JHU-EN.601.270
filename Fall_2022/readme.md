@@ -510,9 +510,9 @@ ATLAS is the web based front end analysis system that allows research to perform
 **Language:** Javascript </br> 
 **Mentor:** Chris Knoll </br>
 
-### OHDSI #3: Prepare and release RohdsiWebAPI 
+### OHDSI #3: Prepare a new release of ROhdsiWebAPI 
 **Description:** 
-All the statistical packages to perform research are in R packages as part of the HADES system.  ROHDSIWebAPI is a package for interfacing with a WebAPI instance. The goal of this project will be to create a new release of the ROhdsiWebApi package. It will involve reviewing and merging pull requests, running unit tests, running reverse dependency tests, and releasing the package. Students will learn about the release process used in the OHDSI open source community.</br>
+ROHDSIWebAPI is an OHDSI R package used to interface with a WebAPI instance. The goal of this project will be to create a new release of the ROhdsiWebApi package. It will involve reviewing and merging pull requests, running unit tests, running reverse dependency tests, and releasing the package. Students will learn about the release process used in the OHDSI open source community.</br>
 **Additional information:** https://github.com/OHDSI/ROhdsiWebApi </br>
 **Language:** R </br>
 **Mentor:** Adam Black </br>
