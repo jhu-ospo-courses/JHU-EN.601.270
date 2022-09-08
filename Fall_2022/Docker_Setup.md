@@ -17,37 +17,75 @@ If you are running a Mac, then you can use a tool like iTerm (available here): h
 
 On a Windows machine, you can install the Windows Terminal which is a better command line shell, https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701
 
-Lastly, having `git` installed will make things easier for labs as you can clone the exercise files directly instead of creating them. 
+Having `git` installed will make things easier for labs as you can clone the exercise files directly instead of creating them. 
 The 'git' version control tools are available from here: https://git-scm.com/downloads
 
 
 ## Getting Ready
-Assuming you have installed the prerequisite software, and are in your home directory, clone this repo. 
-(If you organize your directories differently, you should be able to change directory and clone the repo into a different place.)
-
-> The shell command prompt is shown as a `$`, sometimes with a machine+directory identifier (e.g. `MacBook-Pro labs$`).
-> Expected output then follows (possibly truncated with `...` if there is a lot of output). 
-> You are expected to type what follows the `$`, hitting a `<RETURN>` key at the end of the command.
-> In the following example, you will type `git clone https://github.com/stephenrwalli/JHU-EN.601.210.git<RETURN>`, see the displayed output, 
-> then type `ls<RETURN>`. 
-
+Assuming you have installed the prerequisite Docker software, and are in your home directory in a command shell, 
+start a clean containerized environment in which you will explore the project. 
 ```
-$ git clone https://github.com/stephenrwalli/JHU-EN.601.210.git
-Cloning into 'JHU-EN.601.210'...
-remote: Enumerating objects: 62, done.
-remote: Counting objects: 100% (62/62), done.
-remote: Compressing objects: 100% (53/53), done.
-remote: Total 62 (delta 7), reused 11 (delta 0), pack-reused 0
-Receiving objects: 100% (62/62), 28.69 KiB | 103.00 KiB/s, done.
-Resolving deltas: 100% (7/7), done.
-stephenrwalli@Stephens-MacBook-Pro Projects$ cd JHU-EN.601.210/
-$ ls
-LICENSE   README.md labs      lessons
+$ docker run -it -d -p 8080:80 ubuntu
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+da7391352a9b: Pull complete
+14428a6d4bcd: Pull complete
+2c2d948710f2: Pull complete
+Digest: sha256:c95a8e48bf88e9849f3e0f723d9f49fa12c5a00cfc6e60d2bc99d87555295e4c
+Status: Downloaded newer image for ubuntu:latest
+f1eac0505442d31e4247b94242010e4347b8fadd950326c7d688594d4ac43778
 $
+``` 
+Get the name of the container using `docker ps -a`.
 ```
+$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND       CREATED              STATUS              PORTS                  NAMES
+f1eac0505442   ubuntu    "/bin/bash"   About a minute ago   Up About a minute   0.0.0.0:8080->80/tcp   vigilant_wilson
+```
+The container has a made up name (`vigilant_wilson` in this example) and a container ID. 
+Attach to the container and login to an interactive shell. 
+```
+$ docker exec -it vigilant_wilson /bin/bash
+root@f1eac0505442:/#
+``` 
+Remember, when you see a `#` symbol at the end of the prompt, this is a root-privileged shell. Your account is all powerful, and mistakes can be costly. 
+In the real world, we would immediately create a less privileged account on a virtual machine, and then login with that account.  
+```
+root@f1eac0505442:/# ls -a
+.  ..  .dockerenv  bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@f1eac0505442:/# cd home
+root@f1eac0505442:/home# ls 
+root@f1eac0505442:/home#
+```
+We are back in the empty home directory, ready to begin. 
+Let's setup the environment for building software with the tools we will likely need using `apt`.
+You can list multiple packages on the `apt` command line, forcing acceptance with a `-y` option. 
+First we will update our `apt` database. 
+```
+root@f1eac0505442:/home# apt-get update
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+...
+Get:17 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [4248 B]
+Fetched 16.6 MB in 4s (4021 kB/s)
+Reading package lists... Done
+root@f1eac0505442:/home# apt-get install -y curl gcc make cloc
+Reading package lists... Done
+Building dependency tree
+...
+Processing triggers for libc-bin (2.31-0ubuntu9.1) ...
+Processing triggers for ca-certificates (20201027ubuntu0.20.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+root@f1eac0505442:/home#
+```
+At this point, you have a basic Ubuntu machine on which to test build the project, you are logged into it.
+As you build the softfware, you may indeed encounter other dependencies for tools. 
+You can use `apt-get` to pull any other tooling you might need. (You might even note it in the report.) 
 
-## Cleaning up after the course 
-Once the course is over, you will likely want to clean up all the disk space used in the labs for EN.601.210.
+## Cleaning up after the lab 
+Once the lab is done, you will likely want to clean up all the disk space used in the lab.
 
 You can see all the Docker containers running, and then remove each container. 
 You can see all the Docker container images as well, and remove them as well. 
